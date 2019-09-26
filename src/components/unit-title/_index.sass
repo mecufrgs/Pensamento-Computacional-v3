@@ -1,0 +1,32 @@
+.unit-title
+    @extend %flexbox-center 
+    background-color: $unit-title-background-color
+    height: $unit-title-height
+    .container
+        @extend %flexbox-row-direction-center
+        width: 33.3%
+        background-color: $root-background-color
+        .sub-container-empty
+            width: 30%
+            height: $lateral-lines-height
+            background-color: $unit-title-background-color
+        .sub-container
+            width: 70%
+            height: $lateral-lines-height
+            background-color: $root-background-color
+        .main-sub-container
+            @extend %flexbox-center
+            background-color: $root-background-color
+            width: 100%
+            height: $unit-title-text-back-box-height
+            .text-container   
+                @extend %flexbox-center
+                text-align: center
+                margin-top: -10px
+                font-size: $font-size-medium
+                background-color: $unit-title-shadow-color
+                color: $text-dark-color
+                font-weight: $font-weight-strong
+                width: $unit-title-text-box-width
+                height: $unit-title-text-back-box-height
+                box-shadow: $unit-title-box-shadow

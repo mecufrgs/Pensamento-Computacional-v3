@@ -1,0 +1,48 @@
+.top-menu
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    .top-menu-bar
+        height: $top-menu-bar-height
+        background-color: $top-menu-background-color
+    .slide-info-hidden
+        height: 0px
+        width: 0px
+        display: none
+    .slide-info
+        @extend %flexbox-column-direction-center
+        .slide-name
+            @extend %flexbox-row-direction-center
+            height: $top-menu-slide-name-height
+            width: $top-menu-slide-name-width
+            border-radius: $top-menu-slide-name-border-radius
+            font-size: $font-size-small
+            font-weight: $font-weight-strong
+            color: $text-light-color
+            .course-name
+                width: 50%
+                text-align: center
+                padding-left: $top-menu-slide-name-padding
+                padding-right: $top-menu-slide-name-padding
+            .unit-name
+                width: 50%
+                text-align: center
+                padding-left: $top-menu-slide-name-padding
+                padding-right: $top-menu-slide-name-padding
+        .slide-number
+            border-color: $text-dark-color
+            color: $text-dark-color
+            background-color: $background-color-default
+            border-style: $top-menu-slide-number-border-style
+            border-top-width: $top-menu-slide-number-top-border-width
+            border-bottom-width: $top-menu-slide-number-border-width
+            border-right-width: $top-menu-slide-number-border-width
+            border-left-width: $top-menu-slide-number-border-width
+            border-radius: $top-menu-slide-number-border-radius
+            padding-top: $top-menu-slide-number-padding-top-bottom
+            padding-bottom: $top-menu-slide-number-padding-top-bottom
+            padding-left: $top-menu-slide-number-padding-right-left
+            padding-right: $top-menu-slide-number-padding-right-left
+            font-weight: $font-weight-strong
+            

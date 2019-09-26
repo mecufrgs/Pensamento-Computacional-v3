@@ -1,0 +1,12 @@
+.content-box
+    @extend %flexbox-center
+    .center
+        @extend %flexbox-column-direction-center
+        background-color: $content-box-center-background
+        width: $content-box-width
+        .text
+            padding: $content-box-margins
+        .bottom-bar
+            height: $content-box-bottom-bar-height
+            width: $content-box-bottom-bar-width
+            background-color: $content-box-bottom-bar-background

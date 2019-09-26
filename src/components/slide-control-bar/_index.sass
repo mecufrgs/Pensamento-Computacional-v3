@@ -1,0 +1,43 @@
+.slide-control-bar
+    @extend %flexbox-row-direction
+    @extend  %upper-case
+    width: 100%
+    height: $slide-control-bar-height
+    .central-bar
+        @extend %flexbox-row-direction
+        background-color: $slide-control-bar-central-bar-background-color
+        width: 60%
+        @media screen and (max-width: $break-small-screen) 
+            width: 80%
+        height: $slide-control-bar-central-bar-height
+        border-radius: 0 0 $slide-control-bar-center-bar-border-radius $slide-control-bar-center-bar-border-radius 
+        .slide-control-bar-button
+            @extend %flexbox-center
+            width: 20%
+            cursor: $button-cursor
+            .button-image
+                width: $slide-control-bar-button-image-width
+                height: $slide-control-bar-button-image-height 
+            .white-bar
+                margin-left: $slide-control-bar-white-bar-margin
+                margin-right: $slide-control-bar-white-bar-margin
+                height: $slide-control-bar-white-bar-height 
+                width: $slide-control-bar-white-bar-width 
+                border-radius: $slide-control-bar-white-bar-width-border-radius 
+                background-color: $slide-control-bar-white-bar-background-color
+        .unit
+            @extend %flexbox-center
+            font-size: $font-size-medium
+            font-weight: $font-weight-strong
+            color: $slide-control-bar-color
+            width: 60%
+            &.previous
+                justify-content: flex-start
+            &.next
+                justify-content: flex-end
+    .side-bar
+        background-color: $slide-control-bar-side-bar-background-color
+        width: 20%
+        height: $slide-control-bar-side-bar-height
+        @media screen and (max-width: $break-small-screen) 
+            width: 10%

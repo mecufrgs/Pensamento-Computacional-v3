@@ -1,0 +1,14 @@
+.footer
+    margin-top: auto
+    @extend %flexbox-column-direction-center
+    .slide-info
+        width: $main-width
+        @media screen and (max-width: $break-small-screen) 
+            width: $main-width-smartphone
+    .copyright
+        @extend %flexbox-center
+        @extend %upper-case
+        background-color: $footer-background-color
+        color: $footer-color
+        height: $footer-height
+        width: $footer-width

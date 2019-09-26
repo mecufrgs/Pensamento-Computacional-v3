@@ -1,0 +1,24 @@
+.slide-control-number
+    @extend %flexbox-column-direction-center
+    @extend %upper-case
+    color: $slide-control-number-color
+    font-weight: $font-weight-strong
+    font-size: $font-size-small
+    .slide-control-number-buttons
+        @extend %flexbox-row-direction
+        margin-top: $slide-control-number-buttons-margin-top
+        .slide-button
+            @extend %flexbox-center
+            border: $slide-control-number-border
+            border-radius: $slide-control-number-border-radius
+            width: $slide-control-number-width
+            height: $slide-control-number-height
+            margin-left: $slide-control-number-margin
+            margin-right: $slide-control-number-margin
+            background-color: $slide-control-number-border-background-color
+            font-size: $font-size-medium
+        .slide-button:hover
+            border-color: $slide-control-number-hover-border-color
+            background-color: $slide-control-number-hover-background-color
+    
+        

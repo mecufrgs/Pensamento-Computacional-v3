@@ -1,0 +1,33 @@
+%flexbox
+    display: flex
+
+%flexbox-center 
+    @extend %flexbox
+    justify-content: center
+    align-items: center
+
+%flexbox-center-column-direction-top
+    @extend %flexbox
+    justify-content: flex-start
+    align-items: center
+    flex-direction: column
+
+%flexbox-column-direction
+    @extend %flexbox
+    flex-direction: column
+
+%flexbox-column-direction-center
+    @extend %flexbox-column-direction
+    justify-content: center
+    align-items: center
+
+%flexbox-row-direction
+    @extend %flexbox
+    flex-direction: row
+
+%flexbox-row-direction-center
+    @extend  %flexbox-row-direction
+    justify-content: center
+    align-items: center
+
+

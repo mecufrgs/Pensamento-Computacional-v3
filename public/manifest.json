@@ -1,0 +1,8 @@
+{
+  "short_name": "TO-DO",
+  "name": "TO-DO",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

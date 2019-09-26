@@ -1,0 +1,442 @@
+[
+    {
+        "identificador": "introducao",
+        "nome": "Introdução",
+        "descricao": "",
+        "permitePorcentagem": "false",
+        "identificadorPai": "",
+        "topicos": [],
+        "atividades": []
+    },
+    {
+        "identificador": "micromundo_i",
+        "nome": "Micromundo I - Uma família bem brasileira",
+        "descricao": "",
+        "permitePorcentagem": "true",
+        "identificadorPai": "",
+        "topicos": [],
+        "atividades": [
+            {
+                "identificador": "atividade_1_micromundo_i",
+                "nomeAtividade": "A infância de Dona Veridiana",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a1_micromundo_i",
+                        "enunciado": "Um grupo será responsável por reproduzir (encenar) as brincadeiras da época da infância da Dona Veridiana, usando como estratégia apresentar brincadeiras de casa, de rua, individuais e coletivas, em diferentes faixas etárias. Qual o pilar do Pensamento Computacional que será exercitado com mais ênfase na concepção e realização desta parte da apresentação?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Abstração;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Decomposição;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Reconhecimento de Padrões;",
+                                "chave": "3",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Algoritmos.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_2_micromundo_i",
+                "nomeAtividade": "As casas onde Dona Veridiana morou",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a2_micromundo_i",
+                        "enunciado": "Um grupo será responsável por descrever as casas onde a Dona Veridiana morou. Sabe-se que a casa que ela mora hoje não é a mesma onde morou logo após casar-se e que, quando solteira, sempre morou com os pais, exceto quando morou com uma tia que precisava de atenção médica. Qual o pilar do Pensamento Computacional que será exercitado com mais ênfase na concepção e realização desta parte da apresentação?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Abstração;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Decomposição;",
+                                "chave": "2",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Reconhecimento de Padrões;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Algoritmos.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_3_micromundo_i",
+                "nomeAtividade": "Os caminhos de Dona Veridiana",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a3_micromundo_i",
+                        "enunciado": "Um grupo será responsável por descrever os caminhos da Dona Veridiana em três etapas diferentes da vida: quando morava com os pais, depois de casada e no momento atual. Os trajetos possíveis em cada uma dessas etapas da vida são sequenciados segundo horas, dias ou eventos. Qual o pilar do Pensamento Computacional que será exercitado com mais ênfase na concepção e realização desta parte da apresentação?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Abstração;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Decomposição;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Reconhecimento de Padrões;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Algoritmos.",
+                                "chave": "4",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_4_micromundo_i",
+                "nomeAtividade": "Organizando o armário de roupas de Dona Veridiana",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a4_micromundo_i",
+                        "enunciado": "Um grupo será responsável por organizar o armário de roupas de Dona Veridiana, que tem peças de vestuário desde sua infância, além de peças dos filhos e netos em momentos marcantes da vida, e mostrar (explicar) como ficou o \"acervo\" depois de organizado. Qual o par de pilares do Pensamento Computacional que será exercitado com mais ênfase na concepção e realização desta parte da apresentação?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Algoritmos e Decomposição;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Abstração e Reconhecimento de Padrões;",
+                                "chave": "2",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Reconhecimento de Padrões e Decomposição;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Abstração e Algoritmos.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "identificador": "micromundo_ii",
+        "nome": "Micromundo I - A Feira Livre",
+        "descricao": "",
+        "permitePorcentagem": "true",
+        "identificadorPai": "",
+        "topicos": [],
+        "atividades": [
+            {
+                "identificador": "atividade_1_micromundo_ii",
+                "nomeAtividade": "Elaborando uma lista de compras",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "Associe cada uma das frases a seguir, com o pilar do Pensamento Computacional que mais pode auxiliar na execução da tarefa.",
+                        "identificador": "q1_a1_micromundo_ii",
+                        "enunciado": "",
+                        "gabaritos": [
+                            {
+                                "alternativa": "a, c, b, d.",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "d, b, c, a.",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "a, b, c, d.",
+                                "chave": "3",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "c, b, a, d.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_2_micromundo_ii",
+                "nomeAtividade": "Escolhendo um presente",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "Selecione, na lista a seguir, o pilar do Pensamento Computacional que pode contribuir com mais ênfase para essa escolha:",
+                        "identificador": "q1_a2_micromundo_ii",
+                        "enunciado": "O elenco de produtos potencialmente adequados para um presente depende de sua \"aderência\" a aspectos conhecidos (idade, gostos, etc.) da pessoa a ser presenteada. Selecione, na lista a seguir, o pilar do Pensamento Computacional que pode contribuir com mais ênfase para essa escolha:",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Abstração;",
+                                "chave": "1",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Decomposição;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Reconhecimento de Padrões;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Algoritmos;",
+                                "chave": "4",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Generalização.",
+                                "chave": "5",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_3_micromundo_ii",
+                "nomeAtividade": "Negociando preços",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a3_micromundo_ii",
+                        "enunciado": "Em casos onde mais de um produto ou mais de uma unidade do mesmo produto são adquiridos, é frequente que haja negociação de preços entre comprador e vendedor. Ainda que não haja uma única regra, é possível pensar num roteiro para isso.  Selecione, na lista a seguir, o pilar do Pensamento Computacional mais adequado para apoiar o comprador na elaboração de uma abordagem prática para essa negociação:",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Abstração;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Decomposição;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Reconhecimento de Padrões;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Algoritmos;",
+                                "chave": "4",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Composição.",
+                                "chave": "5",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_4_micromundo_ii",
+                "nomeAtividade": "Análise de Custo Benefício",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "Indique, a seguir, o par de pilares do Pensamento Computacional que será exercitado com mais ênfase na escolha:",
+                        "identificador": "q1_a4_micromundo_ii",
+                        "enunciado": "Nem sempre o produto mais barato é o que vai oferecer a melhor satisfação ao comprador. Em geral é importante levantar outros fatores dos produtos que agradam ao comprador, ou seja, considerar o preço,  o potencial do produto agradar o destinatário do presente, o risco de quebrar, etc. Assim, após identificar os produtos candidatos a uma avaliação, é preciso proceder à sua escolha. Indique, a seguir,  o par de pilares do Pensamento Computacional que será exercitado com mais ênfase na escolha:",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Abstração, Decomposição;",
+                                "chave": "1",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Decomposição, Reconhecimento de Padrões;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Equilibração, Pensamento Computacional;",
+                                "chave": "3",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "identificador": "to-do-3",
+        "nome": "To-do",
+        "descricao": "",
+        "permitePorcentagem": "true",
+        "identificadorPai": "",
+        "topicos": [],
+        "atividades": [
+            {
+                "identificador": "atividade_1_to-do-3",
+                "nomeAtividade": "Organizando documentos",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a1_to-do-3",
+                        "enunciado": "",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Decomposição;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Abstração;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Algoritmos;",
+                                "chave": "3",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Reconhecimento de Padrões.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_2_to-do-3",
+                "nomeAtividade": "Descrevendo seu bairro",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a2_to-do-3",
+                        "enunciado": "O levantamento e o registro produzidos pelos alunos podem ajudar a caracterizar o bairro sob a perspectiva dos próprios moradores. Considere que os documentos gerados no registro sejam usados para produzir uma descrição do bairro segundo essa perspectiva - espera-se que a partir dessa análise surjam termos descritores, como \"polo gastronômico\" ou \"arquitetura de inspiração lusitana\" ou ainda \"espaço cultural\". Quais dos pilares do Pensamento Computacional melhor se adéquam à determinação desses descritores?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Abstração;",
+                                "chave": "1",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Decomposição;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Reconhecimento de Padrões;",
+                                "chave": "3",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Algoritmos;",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_3_to-do-3",
+                "nomeAtividade": "Usando os registros para conhecer o bairro",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a3_to-do-3",
+                        "enunciado": "",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Decomposição;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Abstração;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Algoritmos;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Reconhecimento de Padrões.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_4_to-do-3",
+                "nomeAtividade": "Um mapa \"comentado\"",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a4_to-do-3",
+                        "enunciado": "Poderia ser criado um possível caminho da escola até um certo estabelecimento, considerando sobretudo as ruas com comentários registrados, com o propósito de futuramente gerar um “mapa falado”, com os comentários registrados pelos moradores. Qual dos pilares do Pensamento Computacional seria mais importante na criação desse caminho?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Decomposição;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Abstração;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Algoritmos;",
+                                "chave": "3",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Reconhecimento de Padrões.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

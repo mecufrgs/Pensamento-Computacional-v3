@@ -1,0 +1,48 @@
+.image-slide
+    @extend %flexbox-center-column-direction-top
+    position: fixed
+    top: $image-slide-top
+    left: $image-slide-left
+    width: $image-slide-width
+    height: $image-slide-height 
+    padding-top: $image-slide-padding-top
+    background-color: $image-slide-background-color
+    .image
+        width: $image-slide-image-width
+        @media screen and (max-width: $break-small-screen) 
+            width: $image-slide-image-width-mobile
+    .control-bar
+        @extend %flexbox-center
+        height: $image-slide-control-bar-height
+        width: $image-slide-control-bar-width
+        background-color: $image-slide-control-bar-background-color
+        .button
+            background-color: $image-slide-control-bar-button-background-color
+            margin: $image-slide-control-bar-margin
+            padding: $image-slide-control-bar-padding
+            border-radius: $image-slide-control-bar-border-radius
+            cursor: $button-cursor
+            &.closed
+                background-color: $image-slide-control-bar-closed-background-color
+                opacity: $image-slide-control-bar-closed-opacity
+    .close-button
+        margin-left: $image-slide-close-button-margin-left
+        cursor: $button-cursor
+        @media screen and (max-width: $break-small-screen) 
+            margin-left: $image-slide-close-button-mobile-margin-left
+
+.open-button-container
+    @extend %flexbox-center
+    font-family: $font-family-primary
+    position: fixed
+    top: $image-slide-open-button-container-top
+    right: $image-slide-open-button-container-right
+    background-color: $image-slide-open-button-container-background-color
+    width: $image-slide-open-button-container-width
+    border-radius: $image-slide-open-button-container-border-radius
+    cursor: $button-cursor
+    @media screen and (max-width: $break-small-screen) 
+        right: $image-slide-open-button-container-mobile-right
+
+
+    

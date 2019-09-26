@@ -1,0 +1,39 @@
+@import 'colors'
+@import 'vars'
+@import 'flexbox'
+@import 'root'
+@import 'font'
+@import '../components/center/index'
+@import '../components/content-box/index'
+@import '../components/empty-space/index'
+@import '../components/external-link/index'
+@import '../components/footer/index'
+@import '../components/header/index'
+@import '../components/image-slide/index'
+@import '../components/info-bar-bottom/index'
+@import '../components/logo/index'
+@import '../components/page-up/index'
+@import '../components/slide-control-bar/index'
+@import '../components/slide-control-bottom/index'
+@import '../components/slide-control-number/index'
+@import '../components/subtitle-bar/index'
+@import '../components/text/bold/index'
+@import '../components/text/italic/index'
+@import '../components/text/primary/index'
+@import '../components/text/subtitle/index'
+@import '../components/text/bncc/index'
+@import '../components/top-menu/index'
+@import '../components/unit-title/index'
+@import '../components/youtube-player/index'
+
+.main-center
+    align-self: center
+    width: $main-width
+    @media screen and (max-width: $break-small-screen) 
+        width: $main-width-smartphone
+    .content
+        min-height: 55vh
+
+.highlightbox
+    width: $highlightbox-width
+    padding-left: $highlightbox-padding-left

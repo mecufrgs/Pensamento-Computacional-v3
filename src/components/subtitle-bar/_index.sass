@@ -1,0 +1,25 @@
+.subtitle
+    @extend %flexbox-center
+    .subtitle-container
+        @extend %flexbox-column-direction-center
+        margin-bottom: $subtitle-container-margin-bottom
+        .subtitle-up-bar
+            border-radius: $subtitle-container-width-border-radius-up-bar
+            width: $subtitle-container-subtitle-up-bar-width
+            height: $subtitle-container-subtitle-up-bar-height
+        .subtitle-content
+            @extend  %flexbox-row-direction-center
+            border-radius: $subtitle-container-width-border-radius-content
+            width: $subtitle-container-subtitle-up-bar-subtitle-content-width
+            padding-bottom: $subtitle-container-subtitle-up-bar-subtitle-content-padding-bottom
+            .subtitle-image
+                width: $subtitle-container-subtitle-image-image-width
+                margin-right: $subtitle-container-margin-right
+                margin-left: $subtitle-container-margin-right
+                margin-top: $subtitle-container-margin-top
+            .subtitle-text
+                @extend %flexbox-column-direction-center
+                margin-right: $subtitle-container-margin-right * 6
+                font-weight: $font-weight-strong
+                .subtitle-title
+                    @extend %upper-case
