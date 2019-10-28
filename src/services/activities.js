@@ -164,25 +164,25 @@ getMicromundoIIActiviryOne = (unitId) => {
                         value: "0",
                         key: "1",
                         text: "a, c, b, d",
-                        tip: "-"
-                    },
-                    {
-                        value: "1",
-                        key: "2",
-                        text: "d, b, c, a.",
-                        tip: "-"
+                        tip: "Resposta errada. Revise e tente novamente."
                     },
                     {
                         value: "0",
+                        key: "2",
+                        text: "d, b, c, a",
+                        tip: "Resposta errada. Revise e tente novamente."
+                    },
+                    {
+                        value: "1",
                         key: "3",
-                        text: "a, b, c, d.",
-                        tip: "-"
+                        text: "a, b, c, d",
+                        tip: "O pilar Abstração será exercitado com mais ênfase, pois como o objetivo é a lista conter alimentos de todos os níveis da pirâmide alimentar, ao considerar-se um nível, abstraindo-se os demais, obrigatoriamente deverá ser inserido pelo menos um alimento desse nível na lista. O pilar Decomposição será exercitado com mais ênfase, visto que o momento de consumo dos alimentos está refletido nas principais refeições do dia e a lista deve contemplar alimentos para todas essas refeições. O pilar Reconhecimento de Padrões será exercitado com mais ênfase, tendo em vista que na lista deverão ser inseridos alimentos selecionados segundo frequências de consumo determinadas, por exemplo, para refeições diárias, em confraternizações familiares de fim de semana e em datas especiais. O pilar Algoritmos será exercitado com mais ênfase, tendo em vista que envolve logísticas de acomodação e transporte das compras."
                     },
                     {
                         value: "0",
                         key: "4",
-                        text: "c, b, a, d.",
-                        tip: "-"
+                        text: "c, b, a, d",
+                        tip: "Resposta errada. Revise e tente novamente."
                     }
                 ]
             }
@@ -200,33 +200,33 @@ getMicromundoIIActiviryTwo = (unitId) => {
                 id: "q1_a2_micromundo_ii",
                 options: [
                     {
-                        value: "0",
+                        value: "1",
                         key: "1",
-                        text: "Abstração;",
-                        tip: "-"
+                        text: "Abstração",
+                        tip: "Abstração: este pilar é central na escolha de um presente “aderente” a uma pessoa, pois fará com que sejam abstraídas algumas características e sejam considerados apenas aspectos relevantes ao presenteado."
                     },
                     {
-                        value: "1",
+                        value: "0",
                         key: "2",
-                        text: "Decomposição;",
-                        tip: "-"
+                        text: "Decomposição",
+                        tip: "Decomposição: este pilar não é central na escolha de um presente “aderente” a uma pessoa, mas poderá ser exercitado, por exemplo, na avaliação de custos, tempos, etc."
                     },
                     {
                         value: "0",
                         key: "3",
-                        text: "Reconhecimento de Padrões;",
-                        tip: "-"
+                        text: "Reconhecimento de Padrões",
+                        tip: "Reconhecimento de padrões:  este pilar não é central na escolha de um presente “aderente” a uma pessoa cujos aspectos são conhecidos. Mas poderá ser exercitado, por exemplo, ao tentar agrupar alguns tipos de artesanato a algum aspecto muito peculiar."
                     },
                     {
                         value: "0",
                         key: "4",
-                        text: "Algoritmos;",
-                        tip: "-"
+                        text: "Algoritmos",
+                        tip: "Algoritmos: este pilar não é central na escolha de um presente “aderente” a uma pessoa, mas poderá ser exercitado, por exemplo, na escolha de um roteiro para percorrer uma feira de artesanato de maior porte."
                     },                    {
                         value: "0",
                         key: "5",
-                        text: "Generalização.",
-                        tip: "-"
+                        text: "Generalização",
+                        tip: "Generalização: não é um pilar do Pensamento Computacional."
                     }
 
                 ]
@@ -245,31 +245,31 @@ getMicromundoIIActiviryThree = (unitId) => {
                     {
                         value: "0",
                         key: "1",
-                        text: "Abstração;",
-                        tip: "-"
+                        text: "Abstração",
+                        tip: "Abstração: este pilar não é central no desenvolvimento de um roteiro de abordagem prática para uma negociação de preços, mas pode auxiliar para o bom termo da mesma, abstraindo gestos e palavras de efeito do vendedor, não pertinentes à negociação."
                     },
                     {
-                        value: "1",
+                        value: "0",
                         key: "2",
-                        text: "Decomposição;",
-                        tip: "-"
+                        text: "Decomposição",
+                        tip: "Decomposição: este pilar não é central no desenvolvimento de um roteiro de abordagem prática para uma negociação de preços, mas pode auxiliar na definição de diferentes abordagens, conforme o perfil dos vendedores."
                     },
                     {
                         value: "0",
                         key: "3",
-                        text: "Reconhecimento de Padrões;",
-                        tip: "-"
+                        text: "Reconhecimento de Padrões",
+                        tip: "Reconhecimento de Padrões: este pilar não é central no desenvolvimento de um roteiro de abordagem prática para uma negociação de preços, mas pode auxiliar nessa tarefa, por exemplo, quando se percebe qual a estratégia adotada (padrão de comportamento de negociação) por parte do vendedor."
                     },
                     {
-                        value: "0",
+                        value: "1",
                         key: "4",
-                        text: "Algoritmos;",
-                        tip: "-"
+                        text: "Algoritmos",
+                        tip: "Algoritmos: quando uma tarefa envolve roteiros e, em particular, roteiros de uma abordagem prática, Algoritmos é o pilar do Pensamento Computacional mais adequado para apoiar sua solução."
                     },                    {
                         value: "0",
                         key: "5",
-                        text: "Composição.",
-                        tip: "-"
+                        text: "Composição",
+                        tip: "Composição: não é um pilar do Pensamento Computacional."
                     }
 
                 ]
@@ -289,26 +289,185 @@ getMicromundoIIActiviryFour = (unitId) => {
                     {
                         value: "0",
                         key: "1",
-                        text: "Abstração, Decomposição;",
-                        tip: "-"
+                        text: "Abstração, Decomposição",
+                        tip: "Na geração do algoritmo de escolha, baseado em alguns fatores dos produtos, entre os dois pilares Abstração e Decomposição, apenas o pilar Abstração será exercitado com mais ênfase, ao serem considerados somente alguns fatores para a análise de custo benefício. O pilar Decomposição, se utilizado, o será de forma periférica, como para explodir detalhes de custos."
                     },
                     {
-                        value: "1",
+                        value: "0",
                         key: "2",
-                        text: "Decomposição, Reconhecimento de Padrões;",
-                        tip: "-"
+                        text: "Decomposição, Reconhecimento de Padrões",
+                        tip: "Na geração do algoritmo de escolha, baseado em alguns fatores dos produtos, o par de pilares Decomposição e Reconhecimento de Padrões não é central à tarefa, mas ambos poderão ser exercitados, por exemplo, para explodir detalhes de custos (pilar Decomposição) ou agrupar em subgrupos, conforme algum padrão, os produtos candidatos (pilar Reconhecimento de Padrões)."
                     },
                     {
                         value: "0",
                         key: "3",
-                        text: "Reconhecimento de Padrões;",
-                        tip: "-"
+                        text: "Equilibração, Pensamento Computacional",
+                        tip: "Equilibração e Pensamento Computacional não são pilares do Pensamento Computacional."
+                    },
+                    {
+                        value: "1",
+                        key: "4",
+                        text: "Abstração, Algoritmos",
+                        tip: "O par de pilares Abstração e Algoritmos será exercitado com mais ênfase na geração do algoritmo de escolha, baseado em alguns fatores dos produtos: o pilar  Abstração, ao serem considerados apenas alguns fatores para a análise de custo benefício; e o pilar Algoritmos, para definir o roteiro de como a escolha acontecerá."
+                    }
+
+                ]
+            }
+        ]
+    }
+}
+
+
+//--------------------------------------//
+
+
+
+getMicromundoIIIActiviryOne = (unitId) => {
+    return {
+        unitId: unitId,
+        id: "atividade_1_micromundo_iii",
+        questions: [
+            {
+                id: "q1_a1_micromundo_iii",
+                options: [
+                    {
+                        value: "0",
+                        key: "1",
+                        text: "b, c, d, a",
+                        tip: "Resposta errada. Revise e tente novamente. "
+                    },
+                    {
+                        value: "0",
+                        key: "2",
+                        text: "d, c, a, b",
+                        tip: "Resposta errada. Revise e tente novamente."
+                    },
+                    {
+                        value: "0",
+                        key: "3",
+                        text: "b, a, c, d",
+                        tip: "Resposta errada. Revise e tente novamente."
+                    },
+                    {
+                        value: "1",
+                        key: "4",
+                        text: "b, c, a, d",
+                        tip: "O pilar Abstração será exercitado com mais ênfase, pois para agrupar os estabelecimentos encontrados será considerada a natureza da sua atividade principal, abstraindo-se o resto. O pilar Algoritmos será exercitado com mais ênfase, tendo em vista que o objeto da atividade é descrever um percurso. O pilar Decomposição será exercitado com mais ênfase na decomposição da forma de nomeação dos nomes de ruas em seus diversos tipos. O pilar Reconhecimento de Padrões será exercitado com mais ênfase, tendo em vista que, ao agrupar os textos dos alunos considerando a quantidade de estabelecimentos não comerciais, estamos na realidade reconhecendo um padrão de zonas mais ou menos residenciais."
+                    }
+                ]
+            }
+        ]
+    }
+}
+
+
+getMicromundoIIIActiviryTwo = (unitId) => {
+    return {
+        unitId: unitId,
+        id: "atividade_2_micromundo_iii",
+        questions: [
+            {
+                id: "q1_a2_micromundo_iii",
+                options: [
+                    {
+                        value: "1",
+                        key: "1",
+                        text: "Abstração",
+                        tip: "Abstração: este pilar é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, pois o levantamento e o registro produzidos pelos alunos deverão ser examinados, procurando isolar e destacar os elementos de interesse dos moradores."
+                    },
+                    {
+                        value: "0",
+                        key: "2",
+                        text: "Decomposição",
+                        tip: "Decomposição: este pilar não é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, mas até poderá ser exercitado se o volume de informações a ser processado demandar algum tipo de divisão do material entre grupos, subgrupos,  para permitir seu exame em um tempo mais razoável ou com detalhes mais específicos."
+                    },
+                    {
+                        value: "1",
+                        key: "3",
+                        text: "Reconhecimento de Padrões",
+                        tip: "Reconhecimento de Padrões: este pilar é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, pois os termos descritores deverão surgir a partir de padrões observados nos registros do bairro, por exemplo, número expressivo de bares e restaurantes, prédios conforme determinado período arquitetônico, etc."
                     },
                     {
                         value: "0",
                         key: "4",
-                        text: "Equilibração, Pensamento Computacional;",
-                        tip: "-"
+                        text: "Algoritmos",
+                        tip: "Algoritmos: este pilar não é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, mas até poderá ser exercitado, por exemplo, na definição de estratégias para examinar os documentos do bairro, se eles se revelarem em volume expressivo."
+                    }
+
+                ]
+            }
+        ]
+    }
+}
+getMicromundoIIIActiviryThree = (unitId) => {
+    return {
+        unitId: unitId,
+        id: "atividade_3_micromundo_iii",
+        questions: [
+            {
+                id: "q1_a3_micromundo_iii",
+                options: [
+                    {
+                        value: "0",
+                        key: "1",
+                        text: "c, d, b, a",
+                        tip: "Resposta errada. Revise e tente novamente."
+                    },
+                    {
+                        value: "1",
+                        key: "2",
+                        text: "c, d, a, b",
+                        tip: "O pilar Algoritmos será exercitado com mais ênfase, já que o objeto da atividade é a definição do trajeto a ser percorrido pela dupla/grupo. O pilar Reconhecimento de Padrões será exercitado com mais ênfase nessa atividade, já que os destaques serão agrupados segundo critérios de valorização ou desvalorização do bairro. O pilar Decomposição será exercitado com mais ênfase na decomposição do bairro em zonas. O pilar Abstração será exercitado com mais ênfase, pois, para identificar o estilo de um prédio, só os aspectos que definem o estilo serão considerados, sendo os demais abstraídos."
+                    },
+                    {
+                        value: "0",
+                        key: "3",
+                        text: "a, d, c, b",
+                        tip: "Resposta errada. Revise e tente novamente."
+                    },
+                    {
+                        value: "0",
+                        key: "4",
+                        text: "c, a, d, b",
+                        tip: "Resposta errada. Revise e tente novamente."
+                    },                   
+                ]
+            }
+        ]
+    }
+}
+
+getMicromundoIIIActiviryFour = (unitId) => {
+    return {
+        unitId: unitId,
+        id: "atividade_4_micromundo_iii",
+        questions: [
+            {
+                id: "q1_a4_micromundo_iii",
+                options: [
+                    {
+                        value: "0",
+                        key: "1",
+                        text: "Decomposição",
+                        tip: "Decomposição: este pilar não é central para produzir um mapa comentado, mas poderá ser exercitado na  geração do trajeto, ao trabalhar com as ruas, que são um dos elementos componentes do bairro."
+                    },
+                    {
+                        value: "0",
+                        key: "2",
+                        text: "Abstração",
+                        tip: "Abstração: este pilar não é central para produzir um mapa comentado, mas tem sua importância ao considerar basicamente as ruas com comentários."
+                    },
+                    {
+                        value: "1",
+                        key: "3",
+                        text: "Algoritmos",
+                        tip: "Algoritmos: este pilar é central para produzir um mapa comentado, pois se trata da produção de um trajeto, ligando ruas conexas em busca de um objetivo,  priorizando as ruas com comentários registrados."
+                    },
+                    {
+                        value: "0",
+                        key: "4",
+                        text: "Reconhecimento de Padrões",
+                        tip: "Reconhecimento de Padrões: este pilar não é central para produzir um mapa comentado, mas poderá ser exercitado no agrupamento das ruas com comentários."
                     }
 
                 ]
@@ -317,6 +476,8 @@ getMicromundoIIActiviryFour = (unitId) => {
     }
 }
 }
+
+
 
 export default (new Activities())
 

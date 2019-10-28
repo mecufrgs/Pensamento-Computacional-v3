@@ -23,7 +23,7 @@ class Four extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 1' subtitle='Elaborando uma lista de compras' />
+          <SubtitleBar type={3} title='Questão Avaliativa - 1' subtitle='Organizando documentos' />
           <p>No momento, Mariana e Augusto estão preocupados em seguir a
 orientação de uma nutricionista, entre outros aspectos, na elaboração de
 sua lista de compras.</p>

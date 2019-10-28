@@ -23,7 +23,7 @@ class Seven extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 3' subtitle='Negociando preços'/>
+          <SubtitleBar type={3} title='Questão Avaliativa - 3' subtitle='Usando os registros para conhecer o bairro'/>
           <p>Duplas ou grupos poderiam percorrer as ruas, relacionando (e se possível fotografando) itens,  registrando a rua e seu número (exato ou de uma ediﬁcação próxima) e descrevendo o que foi observado. </p>
           <EmptySpace />
 
@@ -50,7 +50,7 @@ class Seven extends React.Component {
 
 
 
-          <IntegralActivity activity={Activities.getMicromundoIIActiviryThree(this.props.unitId)} />
+          <IntegralActivity activity={Activities.getMicromundoIIIActiviryThree(this.props.unitId)} />
         </PrimaryText>
       </ContentBox>
     )

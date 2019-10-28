@@ -4,5 +4,7 @@ export default {
     INTRODUCAO: 'Introdução',
     MICROMUNDO_I: 'MICROMUNDO I <br/> Uma família bem brasileira',
     MICROMUNDO_II: 'MICROMUNDO II <br/> A Feira Livre',
+    MICROMUNDO_III: 'MICROMUNDO III <br/> O Bairro Onde Moramos',
+    CONSIDERACOES: 'Considerações Finais',
     NOT_FOUND: 'Inválida'
 }

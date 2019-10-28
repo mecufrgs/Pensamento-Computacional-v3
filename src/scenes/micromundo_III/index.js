@@ -14,12 +14,12 @@ import SlideSeven from './slide/7'
 import SlideEight from './slide/8'
 
 
-class Micromundo_II extends BaseScene {
+class Micromundo_III extends BaseScene {
   constructor(props){
     super(props)
     this.state = {
-      id: UnitId.MICROMUNDO_II,
-      slideCount: SlideCount.MICROMUNDO_II,
+      id: UnitId.MICROMUNDO_III,
+      slideCount: SlideCount.MICROMUNDO_III,
       slide: props.slide,
       hasNextUnit: false,
       hasPreviousUnit: false
@@ -59,4 +59,4 @@ class Micromundo_II extends BaseScene {
   }
 }
 
-export default Micromundo_II
+export default Micromundo_III
