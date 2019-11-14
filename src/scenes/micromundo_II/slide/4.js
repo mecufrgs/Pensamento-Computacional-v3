@@ -23,7 +23,7 @@ class Four extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 1' subtitle='Organizando documentos' />
+          <SubtitleBar type={3} title='Questão Avaliativa - 1' subtitle='Elaborando uma lista de compras' />
           <p>No momento, Mariana e Augusto estão preocupados em seguir a
 orientação de uma nutricionista, entre outros aspectos, na elaboração de
 sua lista de compras.</p>
@@ -44,9 +44,8 @@ Computacional (e as correspondentes letras que os identificam):</p>
           <p><span style={{color:'red'}}>c)</span>  Reconhecimento de Padrões;</p>
           <p><span style={{color:'red'}}>d)</span>  Algoritmos;</p>
           <EmptySpace />
-          <p>Associe cada uma das frases a seguir, com o pilar do Pensamento
-Computacional que mais pode auxiliar na execução da tarefa.</p>
-<p>Marque após a opção correta de sequência de letras:</p>
+          <p>Associe cada uma das frases a seguir com o pilar do Pensamento Computacional <b>mais adequado</b>  para a execução da tarefa e, logo após, marque a opção correta de sequência de letras.</p>
+
 <p><span style={{color:'red'}}>Níveis da pirâmide alimentar:</span> A lista deverá conter alimentos de todos os
 níveis da pirâmide alimentar (energéticos, reguladores, construtores,
 energéticos extras);</p>

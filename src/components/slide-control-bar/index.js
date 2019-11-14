@@ -48,7 +48,7 @@ class SlideControlBar extends React.Component {
             if(this.props.hasNextUnit){
                 return 'próxima unidade'
             } else {
-                return 'última unidade'
+                return 'você está na última unidade'
             }
         } else {
             return 'slide '.concat(parseInt(this.props.slide) + 1)

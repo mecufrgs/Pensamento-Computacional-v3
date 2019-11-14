@@ -18,12 +18,6 @@ class Three extends React.Component {
             <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA' subtitle='Estendendo o Registro'/>
             <p>O registro de informações sobre as ruas de um bairro pode ser estendido para incluir especiﬁcamente itens importantes ou notáveis relativos à saúde, alimentação, segurança, mobilidade, lazer, etc. </p>
 
-
-<div style={{textAlign:"center", width:"100%"}}>
-            <div style={{display:"inline-block"}}>
-<Image center width="365px" src={ProdutosSVG} alt='Pessoa na feira vendendo' />
-            </div>
-          </div>
           
  </PrimaryText>
       </ContentBox>

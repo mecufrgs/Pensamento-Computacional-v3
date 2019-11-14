@@ -34,7 +34,7 @@ class Five extends React.Component {
           </div>
           
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Arte, Geograﬁa, Matemática e Língua Portuguesa. </TextBNCC>
-          <p>Qual dos pilares do Pensamento Computacional seria mais importante na criação desse caminho?
+          <p>Qual dos pilares do Pensamento Computacional seria <b>mais importante</b> na criação desse caminho?
  </p>
           <IntegralActivity activity={Activities.getMicromundoIIIActiviryFour(this.props.unitId)} />
         </PrimaryText>

@@ -24,7 +24,8 @@ class Four extends React.Component {
       <ContentBox>
         <PrimaryText>
           <SubtitleBar type={3} title='Questão Avaliativa - 1' subtitle='Organizando documentos' />
-          <p>No momento, Mariana e Augusto estão preocupados em seguir a orientação de uma nutricionista, entre outros aspectos, na elaboração de sua lista de compras. </p>
+          <p>Como resultado das atividades dos alunos, haverá vários documentos apresentando informações sobre as ruas onde os alunos residem. Poderia ser interessante que os alunos buscassem explorar o conteúdo dessa coleção de documentos, com o objetivo de construir conhecimento. 
+ </p>
           <EmptySpace />
 
       
@@ -39,13 +40,13 @@ class Four extends React.Component {
           <p><span style={{color:'red'}}>c)</span>  Algoritmos;</p>
           <p><span style={{color:'red'}}>d)</span>  Reconhecimento de Padrões.;</p>
           <EmptySpace />
-          <p>Associe cada uma das frases a seguir, com o pilar do Pensamento Computacional que <strong>mais pode auxiliar</strong> na execução da tarefa. </p>
-<p>Marque após a opção correta de sequência de letras:</p>
-<p>Identiﬁcar as características em comum que facilitem agrupar os estabelecimentos encontrados, considerando a natureza da atividade principal do estabelecimento</p>
-<p>Descrever o percurso a ser percorrido por cada aluno para sair de sua casa e visitar cada um dos estabelecimentos identiﬁcados em sua rua;</p>
-<p>Produzir uma apresentação sobre a natureza dos nomes de ruas, considerando um conjunto de tipos previamente deﬁnidos (por exemplo: nomes de pessoas, locais, eventos, datas comemorativas, outros);
+          <p>Associe cada uma das frases a seguir com o pilar do Pensamento Computacional <b>mais adequado</b> para a execução da tarefa e, logo após, marque a opção correta de sequência de letras. </p>
+
+<p>- Identiﬁcar as características em comum que facilitem agrupar os estabelecimentos encontrados, considerando a natureza da atividade principal do estabelecimento</p>
+<p>- Descrever o percurso a ser percorrido por cada aluno para sair de sua casa e visitar cada um dos estabelecimentos identiﬁcados em sua rua;</p>
+<p>- Produzir uma apresentação sobre a natureza dos nomes de ruas, considerando um conjunto de tipos previamente deﬁnidos (por exemplo: nomes de pessoas, locais, eventos, datas comemorativas, outros);
 </p>
-<p>Agrupar os textos dos alunos, considerando a quantidade de estabelecimentos não residenciais relacionados em cada lista. </p>
+<p>- Agrupar os textos dos alunos, considerando a quantidade de estabelecimentos não residenciais relacionados em cada lista. </p>
 
 
           <IntegralActivity activity={Activities.getMicromundoIIIActiviryOne(this.props.unitId)} />

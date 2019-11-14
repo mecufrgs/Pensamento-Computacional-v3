@@ -23,7 +23,7 @@ class Five extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 2' subtitle='As casas onde Dona Viridiana morou'/>
+          <SubtitleBar type={3} title='Questão Avaliativa - 2' subtitle='As casas onde Dona Veridiana morou'/>
           <p>Um grupo será responsável por descrever as casas onde a Dona Veridiana morou. Sabe-se que a casa que ela mora hoje não é a mesma onde morou logo após casar-se e que, quando solteira, sempre morou com os pais, exceto quando morou com uma tia que precisava de atenção médica.</p>
           <EmptySpace />
           <Image center src={CasasSVG} alt='Imagem mostrando uma casa azul e uma casa amarela' />

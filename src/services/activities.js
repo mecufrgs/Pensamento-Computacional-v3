@@ -164,13 +164,13 @@ getMicromundoIIActiviryOne = (unitId) => {
                         value: "0",
                         key: "1",
                         text: "a, c, b, d",
-                        tip: "Resposta errada. Revise e tente novamente."
+                        tip: "Revise e tente novamente."
                     },
                     {
                         value: "0",
                         key: "2",
                         text: "d, b, c, a",
-                        tip: "Resposta errada. Revise e tente novamente."
+                        tip: "Revise e tente novamente."
                     },
                     {
                         value: "1",
@@ -182,7 +182,7 @@ getMicromundoIIActiviryOne = (unitId) => {
                         value: "0",
                         key: "4",
                         text: "c, b, a, d",
-                        tip: "Resposta errada. Revise e tente novamente."
+                        tip: "Revise e tente novamente."
                     }
                 ]
             }
@@ -334,19 +334,19 @@ getMicromundoIIIActiviryOne = (unitId) => {
                         value: "0",
                         key: "1",
                         text: "b, c, d, a",
-                        tip: "Resposta errada. Revise e tente novamente. "
+                        tip: "Revise e tente novamente. "
                     },
                     {
                         value: "0",
                         key: "2",
                         text: "d, c, a, b",
-                        tip: "Resposta errada. Revise e tente novamente."
+                        tip: "Revise e tente novamente."
                     },
                     {
                         value: "0",
                         key: "3",
                         text: "b, a, c, d",
-                        tip: "Resposta errada. Revise e tente novamente."
+                        tip: "Revise e tente novamente."
                     },
                     {
                         value: "1",
@@ -373,7 +373,7 @@ getMicromundoIIIActiviryTwo = (unitId) => {
                         value: "1",
                         key: "1",
                         text: "Abstração",
-                        tip: "Abstração: este pilar é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, pois o levantamento e o registro produzidos pelos alunos deverão ser examinados, procurando isolar e destacar os elementos de interesse dos moradores."
+                        tip: "Abstração: este pilar é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, pois o levantamento e o registro produzidos pelos alunos deverão ser examinados, procurando isolar e destacar os elementos de interesse dos moradores. O pilar Reconhecimento de Padrões também é central e seria uma resposta correta."
                     },
                     {
                         value: "0",
@@ -385,7 +385,7 @@ getMicromundoIIIActiviryTwo = (unitId) => {
                         value: "1",
                         key: "3",
                         text: "Reconhecimento de Padrões",
-                        tip: "Reconhecimento de Padrões: este pilar é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, pois os termos descritores deverão surgir a partir de padrões observados nos registros do bairro, por exemplo, número expressivo de bares e restaurantes, prédios conforme determinado período arquitetônico, etc."
+                        tip: "Reconhecimento de Padrões: este pilar é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, pois os termos descritores deverão surgir a partir de padrões observados nos registros do bairro, por exemplo, número expressivo de bares e restaurantes, prédios conforme determinado período arquitetônico, etc. O pilar Abstração também é central e seria uma resposta correta."
                     },
                     {
                         value: "0",
@@ -411,7 +411,7 @@ getMicromundoIIIActiviryThree = (unitId) => {
                         value: "0",
                         key: "1",
                         text: "c, d, b, a",
-                        tip: "Resposta errada. Revise e tente novamente."
+                        tip: "Revise e tente novamente."
                     },
                     {
                         value: "1",
@@ -423,13 +423,13 @@ getMicromundoIIIActiviryThree = (unitId) => {
                         value: "0",
                         key: "3",
                         text: "a, d, c, b",
-                        tip: "Resposta errada. Revise e tente novamente."
+                        tip: "Revise e tente novamente."
                     },
                     {
                         value: "0",
                         key: "4",
                         text: "c, a, d, b",
-                        tip: "Resposta errada. Revise e tente novamente."
+                        tip: "Revise e tente novamente."
                     },                   
                 ]
             }
