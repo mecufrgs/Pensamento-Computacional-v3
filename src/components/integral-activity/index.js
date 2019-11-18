@@ -135,7 +135,7 @@ class IntegralActivity extends BaseActivity {
             }
         } 
 
-        this.shuffleOptions()
+       // this.shuffleOptions()
 
         AvamecServices.closeGetActivity(this.getSavedAnswerCallback)
     }

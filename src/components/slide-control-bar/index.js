@@ -20,11 +20,11 @@ class SlideControlBar extends React.Component {
     }
 
     nextUnit = () => {
-        this.props.onChangeUnit()
+        this.props.onChangeUnit(true)
     }
 
     previousUnit = () => {
-        this.props.onChangeUnit()
+        this.props.onChangeUnit(false)
     }
 
     previous = () => {
