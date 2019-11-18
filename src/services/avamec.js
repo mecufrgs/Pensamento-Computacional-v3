@@ -51,7 +51,7 @@ class AvaMecApiServices {
             window.addEventListener(AvamecEvent.GET_IF_NEXT_UNIT_EXIST, callback, false)
 
             try {
-                this.api.obterSeExisteUnidadeAnterior(unit)
+                this.api.obterSeExisteProximaUnidade(unit)
             } catch {
                 throw Error(AvamecError.GET_IF_NEXT_UNIT_EXIST)
             }
@@ -65,9 +65,11 @@ class AvaMecApiServices {
     getIfPreviousUnitExist = (unit, callback) => {
         if (unit !== undefined) {
             window.addEventListener(AvamecEvent.GET_IF_PREVIOUS_UNIT_EXIST, callback, false)
-
+            
             try {
-                this.api.obterSeExisteProximaUnidade(unit)
+                this.api.obterSeExisteUnidadeAnterior(unit)
+                
+
             } catch {
                 throw Error(AvamecError.GET_IF_PREVIOUS_UNIT_EXIST)
             }

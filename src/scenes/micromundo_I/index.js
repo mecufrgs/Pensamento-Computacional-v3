@@ -22,7 +22,8 @@ class Micromundo_I extends BaseScene {
       hasNextUnit: true,
       hasPreviousUnit: true
     }
-    this.getUnitState()
+    console.log("PREVIOUS:")
+    console.log(this.state.hasPreviousUnit)
   }
 
   renderSlide = () => {

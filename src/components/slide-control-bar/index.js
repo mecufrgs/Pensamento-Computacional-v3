@@ -48,7 +48,7 @@ class SlideControlBar extends React.Component {
             if(this.props.hasNextUnit){
                 return 'próxima unidade'
             } else {
-                return 'você está na última unidade'
+                return null
             }
         } else {
             return 'slide '.concat(parseInt(this.props.slide) + 1)
@@ -60,7 +60,7 @@ class SlideControlBar extends React.Component {
             if(this.props.hasPreviousUnit){
                 return 'unidade anterior'
             } else {
-                return 'primeira unidade'
+                return null
             }
         } else {
             return 'slide '.concat(parseInt(this.props.slide) - 1)
@@ -68,24 +68,28 @@ class SlideControlBar extends React.Component {
     }
 
     render(){
+        console.log("FOOTER")
+        console.log(this.props.hasPreviousUnit)
         return (
+            
             <div className='slide-control-bar'>
                 <div className='side-bar'></div>
                 <div className='central-bar'>
-                    <GenericButton onClick={this.previous} className='slide-control-bar-button'>
+                    {(this.props.slide != 1 ||!(this.props.slide == 1 && !this.props.hasPreviousUnit)) &&  <GenericButton onClick={this.previous} className='slide-control-bar-button'>
                         <Image className='button-image' src={BackFilled} alt='Voltar'/>
                         <div className='white-bar'></div>
-                    </GenericButton>
+        </GenericButton> }
+
                     <div className='unit previous'>
                 	    {this.renderPreviousSlideName()}
                     </div>
                     <div className='unit next'>
                         {this.renderNextSlideName()}
                     </div>
-                    <GenericButton onClick={this.next} className='slide-control-bar-button'>
+                    {(this.props.slide != 1 ||!(this.props.slide == 1 && !this.props.hasNextUnit)) && <GenericButton onClick={this.next} className='slide-control-bar-button'>
                         <div className='white-bar'></div>
                         <Image className='button-image' src={ForwardFilled} alt='Avançar'/>
-                    </GenericButton>
+                    </GenericButton> }
                 </div>
                 <div className='side-bar'></div>
             </div>

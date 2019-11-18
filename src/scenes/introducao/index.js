@@ -19,7 +19,6 @@ class Introducao extends BaseScene {
       hasNextUnit: true,
       hasPreviousUnit: false
     }
-    this.getUnitState()
   }
 
   renderSlide = () => {

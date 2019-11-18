@@ -62,11 +62,16 @@ class BaseScene extends Error {
     }
 
     callBackIfNextUnitExists = event => {
+        console.log("testando proxima unidade")
+        console.log(event)
+        console.log(event.status)
         try {
             if(!HttpStatus.isError(event.status)) {
                 this.setState({
-                    hasNextUnit: event.detail.data
+                    hasNextUnit: true
                 })
+                console.log("Settado")
+                console.log(this.state.hasPreviousUnit)
             }
         } catch {
             console.error('Erro ao buscar outras unidades no servidor.')
@@ -76,11 +81,16 @@ class BaseScene extends Error {
     }
 
     callBackIfPreviousUnitExists = event => {
+        console.log("testando unidade anterior")
+        console.log(event)
+        console.log(event.status)
         try {
             if(!HttpStatus.isError(event.status)) {
                 this.setState({
-                    hasPreviousUnit: event.detail.data
+                    hasPreviousUnit: true
                 })
+                console.log("Settado")
+                console.log(this.state.hasPreviousUnit)
             }
         } catch {
             console.error('Erro ao buscar outras unidades no servidor.')

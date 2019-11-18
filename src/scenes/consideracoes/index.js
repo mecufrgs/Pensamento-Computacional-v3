@@ -16,7 +16,6 @@ class Consideracoes extends BaseScene {
       hasNextUnit: false,
       hasPreviousUnit: true
     }
-    this.getUnitState()
   }
 
   renderSlide = () => {

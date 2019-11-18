@@ -24,13 +24,24 @@ class SlideControlNumber extends React.Component {
 
     render(){
         return (
-            <div className='slide-control-number'>
-                ir para o slide:
-                <div className='slide-control-number-buttons'>
-                    {this.renderSlideButtons()}
-                </div>
-            </div>
+            
+            this.conditionToRender(this.props.slideCount)
         )
+    }
+
+    conditionToRender(slideNumber){
+        if (slideNumber != 1)
+            return (            <div className='slide-control-number'>
+
+            ir para o slide:
+            <div className='slide-control-number-buttons'>
+                {this.renderSlideButtons()}
+            </div>
+    
+        </div>)
+        else return null
+
+    
     }
 }
 
