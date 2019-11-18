@@ -40,7 +40,7 @@ class TopMenu extends React.Component {
 
     render() {
         return (
-            <div className='top-menu'>
+            <div className='top-menu' style={{'z-index':'10'}}>
                     <div className='top-menu-bar'></div>
                     <div className={this.state.SlideInfoClass}>
                         <div className='slide-name' style={{ backgroundImage: 'url(' + TopBarImage + ')', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>

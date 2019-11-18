@@ -32,19 +32,25 @@ class BaseScene extends Error {
 
     onChangeUnit = next => {
         if(next){
+            
             this.nextUnit()
         } else {
             this.previousUnit()
         }
     }
 
-    nextUnit = () => {
+    nextUnit = () => 
+    {
+        console.log("Próxima Unidade:")
+        console.log(AVAMECService.getNextUnit(this.state.id))
         if(this.state.hasNextUnit){
             AVAMECService.getNextUnit(this.state.id)
         }
     }
 
     previousUnit = () => {
+        console.log("Unidade anterior:")
+        console.log(AVAMECService.getPreviousUnit(this.state.id))
         if(this.state.hasPreviousUnit){
             AVAMECService.getPreviousUnit(this.state.id)
         }

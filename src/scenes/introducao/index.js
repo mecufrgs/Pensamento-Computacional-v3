@@ -16,7 +16,7 @@ class Introducao extends BaseScene {
       id: UnitId.INTRODUCAO,
       slideCount: SlideCount.INTRODUCAO,
       slide: props.slide,
-      hasNextUnit: false,
+      hasNextUnit: true,
       hasPreviousUnit: false
     }
     this.getUnitState()

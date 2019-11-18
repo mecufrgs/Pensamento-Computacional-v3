@@ -19,8 +19,8 @@ class Micromundo_I extends BaseScene {
       id: UnitId.MICROMUNDO_I,
       slideCount: SlideCount.MICROMUNDO_I,
       slide: props.slide,
-      hasNextUnit: false,
-      hasPreviousUnit: false
+      hasNextUnit: true,
+      hasPreviousUnit: true
     }
     this.getUnitState()
   }

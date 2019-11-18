@@ -14,7 +14,7 @@ class Consideracoes extends BaseScene {
       slideCount: SlideCount.CONSIDERACOES,
       slide: props.slide,
       hasNextUnit: false,
-      hasPreviousUnit: false
+      hasPreviousUnit: true
     }
     this.getUnitState()
   }
