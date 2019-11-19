@@ -42,7 +42,7 @@ avaliação, é preciso proceder à sua escolha.</p>
 desenvolvimento de habilidades em: Matemática e Língua
 Portuguesa.</TextBNCC>
           <p>Indique, a seguir, o par de pilares do Pensamento Computacional que
-será exercitado com mais ênfase na escolha: </p>
+será exercitado com <b>mais ênfase</b> na escolha: </p>
           <IntegralActivity activity={Activities.getMicromundoIIActiviryFour(this.props.unitId)} />
         </PrimaryText>
       </ContentBox>

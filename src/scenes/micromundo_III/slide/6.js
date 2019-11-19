@@ -2,10 +2,8 @@ import React from 'react'
 import ContentBox from '../../../components/content-box'
 import PrimaryText from '../../../components/text/primary'
 import SubtitleBar from '../../../components/subtitle-bar'
-import Image from '../../../components/image'
-
-import ProdutosSVG from '../../../images/content/micromundo-ii/produtos.svg'
-
+import Subtitle from '../../../components/text/subtitle'
+import EmptySpace from '../../../components/empty-space'
 class Three extends React.Component {
   constructor(props){
     super(props)
@@ -18,6 +16,11 @@ class Three extends React.Component {
             <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA' subtitle='Estendendo o Registro'/>
             <p>O registro de informações sobre as ruas de um bairro pode ser estendido para incluir especiﬁcamente itens importantes ou notáveis relativos à saúde, alimentação, segurança, mobilidade, lazer, etc. </p>
 
+          
+            <EmptySpace/>
+<Subtitle>Questão Avaliativa</Subtitle>
+          <p>Prosseguindo em nossa Situação-problema, convidamos você a selecionar, na Questões Avaliativas a seguir, o pilar do Pensamento Computacional <b>mais apropriado.</b> </p>
+        
           
  </PrimaryText>
       </ContentBox>

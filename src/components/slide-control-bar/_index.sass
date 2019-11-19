@@ -3,6 +3,7 @@
     @extend  %upper-case
     width: 100%
     height: $slide-control-bar-height
+    
     .central-bar
         @extend %flexbox-row-direction
         background-color: $slide-control-bar-central-bar-background-color
@@ -11,6 +12,7 @@
             width: 80%
         height: $slide-control-bar-central-bar-height
         border-radius: 0 0 $slide-control-bar-center-bar-border-radius $slide-control-bar-center-bar-border-radius 
+        
         .slide-control-bar-button
             @extend %flexbox-center
             width: 20%
@@ -27,8 +29,9 @@
                 background-color: $slide-control-bar-white-bar-background-color
         .unit
             @extend %flexbox-center
-            font-size: $font-size-medium
-            font-weight: $font-weight-strong
+            font-size: 16pt
+            font-weight: $font-weight-medium
+            font-family: $font-roboto
             color: $slide-control-bar-color
             width: 60%
             &.previous

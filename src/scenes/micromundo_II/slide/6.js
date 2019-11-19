@@ -8,7 +8,7 @@ import SubtitleBar from '../../../components/subtitle-bar'
 import Activities from '../../../services/activities'
 import IntegralActivity from '../../../components/integral-activity'
 import PresenteSVG from '../../../images/content/micromundo-ii/presente.svg'
-
+import Subtitle from '../../../components/text/subtitle'
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
 .*/
@@ -38,7 +38,7 @@ pessoa a ser presenteada.</p>
 desenvolvimento de habilidades em: Ciências e Língua
 Portuguesa.</TextBNCC>
           <p>Selecione, na lista a seguir, o pilar do Pensamento Computacional que
-pode contribuir com mais ênfase para essa escolha:</p>
+pode contribuir com <b>mais ênfase</b> para essa escolha:</p>
           <IntegralActivity activity={Activities.getMicromundoIIActiviryTwo(this.props.unitId)} />
         </PrimaryText>
       </ContentBox>

@@ -4,8 +4,8 @@ import PrimaryText from '../../../components/text/primary'
 import SubtitleBar from '../../../components/subtitle-bar'
 import Image from '../../../components/image'
 import ListaSVG from '../../../images/content/micromundo-ii/lista.svg'
-
-
+import Subtitle from '../../../components/text/subtitle'
+import EmptySpace from '../../../components/empty-space'
 class Three extends React.Component {
   constructor(props){
     super(props)
@@ -21,7 +21,11 @@ class Three extends React.Component {
            <br/>b) uma listagem das principais construções não residenciais: para cada um dos estabelecimentos é importante descrever como é usado, seus dias e horários de funcionamento, os grupos de frequentadores, etc.;
            <br/>c) outros elementos de destaque na rua (com uma breve descrição).</p>
 
-
+          
+           <EmptySpace/>
+<Subtitle>Questão Avaliativa</Subtitle>
+          <p>Prosseguindo em nossa Situação-problema, convidamos você a selecionar, nas Questões Avaliativas a seguir, o pilar do Pensamento Computacional <b>mais apropriado.</b> </p>
+        
           
         
  </PrimaryText>

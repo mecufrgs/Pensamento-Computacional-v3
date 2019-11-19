@@ -1,13 +1,11 @@
 import React from 'react'
 import ContentBox from '../../../components/content-box'
-import Image from '../../../components/image'
 import PrimaryText from '../../../components/text/primary'
 import EmptySpace from '../../../components/empty-space'
 import IntegralActivity from '../../../components/integral-activity'
 import SubtitleBar from '../../../components/subtitle-bar'
 import TextBNCC from '../../../components/text/bncc'
 import Activities from '../../../services/activities'
-import PensandoSVG from '../../../images/content/micromundo-ii/pensando.svg'
 
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
@@ -40,9 +38,9 @@ class Four extends React.Component {
           <p><span style={{color:'red'}}>c)</span>  Algoritmos;</p>
           <p><span style={{color:'red'}}>d)</span>  Reconhecimento de Padrões.;</p>
           <EmptySpace />
-          <p>Associe cada uma das frases a seguir com o pilar do Pensamento Computacional <b>mais adequado</b> para a execução da tarefa e, logo após, marque a opção correta de sequência de letras. </p>
+          <p>Associe cada uma das frases a seguir com o pilar do Pensamento Computacional <b>mais adequado</b> para a execução da tarefa e, logo após, marque a opção correta de sequência de letras: </p>
 
-<p>- Identiﬁcar as características em comum que facilitem agrupar os estabelecimentos encontrados, considerando a natureza da atividade principal do estabelecimento</p>
+<p>- Identiﬁcar as características em comum que facilitem agrupar os estabelecimentos encontrados, considerando a natureza da atividade principal do estabelecimento;</p>
 <p>- Descrever o percurso a ser percorrido por cada aluno para sair de sua casa e visitar cada um dos estabelecimentos identiﬁcados em sua rua;</p>
 <p>- Produzir uma apresentação sobre a natureza dos nomes de ruas, considerando um conjunto de tipos previamente deﬁnidos (por exemplo: nomes de pessoas, locais, eventos, datas comemorativas, outros);
 </p>

@@ -45,7 +45,7 @@ class One extends React.Component {
           </p>
           <p>O Pensamento Computacional e, por exemplo, a Matemática desenvolvem-se desde os primórdios da história da humanidade. Entretanto, enquanto a Matemática já detém um vasto patrimônio pedagógico, largamente documentado e explorado em livros didáticos, tecnologias educacionais, etc., o Pensamento Computacional, nos currículos escolares, está na infância do seu desenvolvimento.</p>
 
-          <p>Assim, este curso voltado para os  Anos Iniciais do Ensino Fundamental, insere-se no esforço: </p>
+          <p>Assim, este curso, voltado para os  Anos Iniciais do Ensino Fundamental, insere-se no esforço: </p>
           <p>- do efetivo desenvolvimento do Pensamento Computacional desde o primeiro ano do Ensino Fundamental;</p>
           <p>- de sensibilização e motivação dos professores para realizarem o trabalho com o Pensamento Computacional em sala de aula, não necessariamente usando soluções prontas e acabadas, mas principalmente apontando caminhos para que o professor desenvolva os seus próprios recursos, ampliando o acervo pedagógico para o tema.</p>
 

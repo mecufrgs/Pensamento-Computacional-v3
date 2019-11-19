@@ -3,9 +3,9 @@ import ContentBox from '../../../components/content-box'
 import PrimaryText from '../../../components/text/primary'
 import SubtitleBar from '../../../components/subtitle-bar'
 import Image from '../../../components/image'
-
+import Subtitle from '../../../components/text/subtitle'
 import ProdutosSVG from '../../../images/content/micromundo-ii/produtos.svg'
-
+import EmptySpace from '../../../components/empty-space'
 class Three extends React.Component {
   constructor(props){
     super(props)
@@ -27,7 +27,10 @@ utilidades domésticas).</p>
 <Image center width="365px" src={ProdutosSVG} alt='Pessoa na feira vendendo' />
             </div>
           </div>
-          
+          <EmptySpace/>
+<Subtitle>Questão Avaliativa</Subtitle>
+          <p>Prosseguindo em nossa Situação-problema, convidamos você a selecionar, na Questão Avaliativa a seguir, o pilar do Pensamento Computacional <b>mais apropriado.</b> </p>
+        
  </PrimaryText>
       </ContentBox>
     )

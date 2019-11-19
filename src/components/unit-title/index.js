@@ -13,7 +13,7 @@ class UnitTitle extends React.Component {
                 </div>   
                 <div className='container'>
                     <div className='main-sub-container'>
-                        <div className='text-container'>
+                        <div className='text-container text-containers' >
                             {this.props.children}
                         </div>
                     </div>

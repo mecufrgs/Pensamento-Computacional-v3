@@ -4,7 +4,8 @@ import PrimaryText from '../../../components/text/primary'
 import SubtitleBar from '../../../components/subtitle-bar'
 import Image from '../../../components/image'
 import ListaSVG from '../../../images/content/micromundo-ii/lista.svg'
-
+import Subtitle from '../../../components/text/subtitle'
+import EmptySpace from '../../../components/empty-space'
 
 class Three extends React.Component {
   constructor(props){
@@ -26,7 +27,9 @@ complexidade.</p>
 <Image center width="344px" src={ListaSVG} alt='Lista'/>
             </div>
           </div>
-          
+          <EmptySpace/>
+<Subtitle>Questão Avaliativa</Subtitle>
+          <p>Prosseguindo em nossa Situação-problema, convidamos você a selecionar, na Questão Avaliativa a seguir, o pilar do Pensamento Computacional <b>mais apropriado.</b> </p>
         
  </PrimaryText>
       </ContentBox>

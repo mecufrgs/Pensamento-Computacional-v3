@@ -39,8 +39,8 @@ pensar num roteiro para isso.</p>
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o
 desenvolvimento de habilidades em: Matemática e Língua
 Portuguesa.</TextBNCC>
-          <p>Selecione, na lista a seguir, o pilar do Pensamento Computacional mais
-adequado para apoiar o comprador na elaboração de uma abordagem
+          <p>Selecione, na lista a seguir, o pilar do Pensamento Computacional <b>mais
+adequado</b> para apoiar o comprador na elaboração de uma abordagem
 prática para essa negociação:</p>
           <IntegralActivity activity={Activities.getMicromundoIIActiviryThree(this.props.unitId)} />
         </PrimaryText>

@@ -93,7 +93,7 @@ class Activities {
                             value: "0",
                             key: "2",
                             text: "Decomposição",
-                            tip: "este pilar não é central à descrição dos caminhos da D. Veridiana, mas poderá ser exercitado, por exemplo, ao decompor e  tratar as três etapas da sua vida em separado."
+                            tip: "Este pilar não é central à descrição dos caminhos da D. Veridiana, mas poderá ser exercitado, por exemplo, ao decompor e  tratar as três etapas da sua vida em separado."
                         },
                         {
                             value: "0",
@@ -203,30 +203,30 @@ getMicromundoIIActiviryTwo = (unitId) => {
                         value: "1",
                         key: "1",
                         text: "Abstração",
-                        tip: "Abstração: este pilar é central na escolha de um presente “aderente” a uma pessoa, pois fará com que sejam abstraídas algumas características e sejam considerados apenas aspectos relevantes ao presenteado."
+                        tip: "Este pilar é central na escolha de um presente “aderente” a uma pessoa, pois fará com que sejam abstraídas algumas características e sejam considerados apenas aspectos relevantes ao presenteado."
                     },
                     {
                         value: "0",
                         key: "2",
                         text: "Decomposição",
-                        tip: "Decomposição: este pilar não é central na escolha de um presente “aderente” a uma pessoa, mas poderá ser exercitado, por exemplo, na avaliação de custos, tempos, etc."
+                        tip: "Este pilar não é central na escolha de um presente “aderente” a uma pessoa, mas poderá ser exercitado, por exemplo, na avaliação de custos, tempos, etc."
                     },
                     {
                         value: "0",
                         key: "3",
                         text: "Reconhecimento de Padrões",
-                        tip: "Reconhecimento de padrões:  este pilar não é central na escolha de um presente “aderente” a uma pessoa cujos aspectos são conhecidos. Mas poderá ser exercitado, por exemplo, ao tentar agrupar alguns tipos de artesanato a algum aspecto muito peculiar."
+                        tip: "Este pilar não é central na escolha de um presente “aderente” a uma pessoa cujos aspectos são conhecidos. Mas poderá ser exercitado, por exemplo, ao tentar agrupar alguns tipos de artesanato a algum aspecto muito peculiar."
                     },
                     {
                         value: "0",
                         key: "4",
                         text: "Algoritmos",
-                        tip: "Algoritmos: este pilar não é central na escolha de um presente “aderente” a uma pessoa, mas poderá ser exercitado, por exemplo, na escolha de um roteiro para percorrer uma feira de artesanato de maior porte."
+                        tip: "Este pilar não é central na escolha de um presente “aderente” a uma pessoa, mas poderá ser exercitado, por exemplo, na escolha de um roteiro para percorrer uma feira de artesanato de maior porte."
                     },                    {
                         value: "0",
                         key: "5",
                         text: "Generalização",
-                        tip: "Generalização: não é um pilar do Pensamento Computacional."
+                        tip: "Generalização não é um pilar do Pensamento Computacional."
                     }
 
                 ]
@@ -246,30 +246,30 @@ getMicromundoIIActiviryThree = (unitId) => {
                         value: "0",
                         key: "1",
                         text: "Abstração",
-                        tip: "Abstração: este pilar não é central no desenvolvimento de um roteiro de abordagem prática para uma negociação de preços, mas pode auxiliar para o bom termo da mesma, abstraindo gestos e palavras de efeito do vendedor, não pertinentes à negociação."
+                        tip: "Este pilar não é central no desenvolvimento de um roteiro de abordagem prática para uma negociação de preços, mas pode auxiliar para o bom termo da mesma, abstraindo gestos e palavras de efeito do vendedor, não pertinentes à negociação."
                     },
                     {
                         value: "0",
                         key: "2",
                         text: "Decomposição",
-                        tip: "Decomposição: este pilar não é central no desenvolvimento de um roteiro de abordagem prática para uma negociação de preços, mas pode auxiliar na definição de diferentes abordagens, conforme o perfil dos vendedores."
+                        tip: "Este pilar não é central no desenvolvimento de um roteiro de abordagem prática para uma negociação de preços, mas pode auxiliar na definição de diferentes abordagens, conforme o perfil dos vendedores."
                     },
                     {
                         value: "0",
                         key: "3",
                         text: "Reconhecimento de Padrões",
-                        tip: "Reconhecimento de Padrões: este pilar não é central no desenvolvimento de um roteiro de abordagem prática para uma negociação de preços, mas pode auxiliar nessa tarefa, por exemplo, quando se percebe qual a estratégia adotada (padrão de comportamento de negociação) por parte do vendedor."
+                        tip: "Este pilar não é central no desenvolvimento de um roteiro de abordagem prática para uma negociação de preços, mas pode auxiliar nessa tarefa, por exemplo, quando se percebe qual a estratégia adotada (padrão de comportamento de negociação) por parte do vendedor."
                     },
                     {
                         value: "1",
                         key: "4",
                         text: "Algoritmos",
-                        tip: "Algoritmos: quando uma tarefa envolve roteiros e, em particular, roteiros de uma abordagem prática, Algoritmos é o pilar do Pensamento Computacional mais adequado para apoiar sua solução."
+                        tip: "Quando uma tarefa envolve roteiros e, em particular, roteiros de uma abordagem prática, Algoritmos é o pilar do Pensamento Computacional mais adequado para apoiar sua solução."
                     },                    {
                         value: "0",
                         key: "5",
                         text: "Composição",
-                        tip: "Composição: não é um pilar do Pensamento Computacional."
+                        tip: "Composição não é um pilar do Pensamento Computacional."
                     }
 
                 ]
@@ -373,25 +373,25 @@ getMicromundoIIIActiviryTwo = (unitId) => {
                         value: "1",
                         key: "1",
                         text: "Abstração",
-                        tip: "Abstração: este pilar é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, pois o levantamento e o registro produzidos pelos alunos deverão ser examinados, procurando isolar e destacar os elementos de interesse dos moradores. O pilar Reconhecimento de Padrões também é central e seria uma resposta correta."
+                        tip: "Este pilar é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, pois o levantamento e o registro produzidos pelos alunos deverão ser examinados, procurando isolar e destacar os elementos de interesse dos moradores. O pilar Reconhecimento de Padrões também é central e seria uma resposta correta."
                     },
                     {
                         value: "0",
                         key: "2",
                         text: "Decomposição",
-                        tip: "Decomposição: este pilar não é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, mas até poderá ser exercitado se o volume de informações a ser processado demandar algum tipo de divisão do material entre grupos, subgrupos,  para permitir seu exame em um tempo mais razoável ou com detalhes mais específicos."
+                        tip: "Este pilar não é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, mas até poderá ser exercitado se o volume de informações a ser processado demandar algum tipo de divisão do material entre grupos, subgrupos,  para permitir seu exame em um tempo mais razoável ou com detalhes mais específicos."
                     },
                     {
                         value: "1",
                         key: "3",
                         text: "Reconhecimento de Padrões",
-                        tip: "Reconhecimento de Padrões: este pilar é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, pois os termos descritores deverão surgir a partir de padrões observados nos registros do bairro, por exemplo, número expressivo de bares e restaurantes, prédios conforme determinado período arquitetônico, etc. O pilar Abstração também é central e seria uma resposta correta."
+                        tip: "Este pilar é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, pois os termos descritores deverão surgir a partir de padrões observados nos registros do bairro, por exemplo, número expressivo de bares e restaurantes, prédios conforme determinado período arquitetônico, etc. O pilar Abstração também é central e seria uma resposta correta."
                     },
                     {
                         value: "0",
                         key: "4",
                         text: "Algoritmos",
-                        tip: "Algoritmos: este pilar não é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, mas até poderá ser exercitado, por exemplo, na definição de estratégias para examinar os documentos do bairro, se eles se revelarem em volume expressivo."
+                        tip: "Este pilar não é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, mas até poderá ser exercitado, por exemplo, na definição de estratégias para examinar os documentos do bairro, se eles se revelarem em volume expressivo."
                     }
 
                 ]
@@ -449,25 +449,25 @@ getMicromundoIIIActiviryFour = (unitId) => {
                         value: "0",
                         key: "1",
                         text: "Decomposição",
-                        tip: "Decomposição: este pilar não é central para produzir um mapa comentado, mas poderá ser exercitado na  geração do trajeto, ao trabalhar com as ruas, que são um dos elementos componentes do bairro."
+                        tip: "Este pilar não é central para produzir um mapa comentado, mas poderá ser exercitado na  geração do trajeto, ao trabalhar com as ruas, que são um dos elementos componentes do bairro."
                     },
                     {
                         value: "0",
                         key: "2",
                         text: "Abstração",
-                        tip: "Abstração: este pilar não é central para produzir um mapa comentado, mas tem sua importância ao considerar basicamente as ruas com comentários."
+                        tip: "Este pilar não é central para produzir um mapa comentado, mas tem sua importância ao considerar basicamente as ruas com comentários."
                     },
                     {
                         value: "1",
                         key: "3",
                         text: "Algoritmos",
-                        tip: "Algoritmos: este pilar é central para produzir um mapa comentado, pois se trata da produção de um trajeto, ligando ruas conexas em busca de um objetivo,  priorizando as ruas com comentários registrados."
+                        tip: "Este pilar é central para produzir um mapa comentado, pois se trata da produção de um trajeto, ligando ruas conexas em busca de um objetivo,  priorizando as ruas com comentários registrados."
                     },
                     {
                         value: "0",
                         key: "4",
                         text: "Reconhecimento de Padrões",
-                        tip: "Reconhecimento de Padrões: este pilar não é central para produzir um mapa comentado, mas poderá ser exercitado no agrupamento das ruas com comentários."
+                        tip: "Este pilar não é central para produzir um mapa comentado, mas poderá ser exercitado no agrupamento das ruas com comentários."
                     }
 
                 ]

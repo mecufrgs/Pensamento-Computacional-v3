@@ -1,13 +1,11 @@
 import React from 'react'
 import ContentBox from '../../../components/content-box'
-import Image from '../../../components/image'
 import PrimaryText from '../../../components/text/primary'
 import EmptySpace from '../../../components/empty-space'
 import TextBNCC from '../../../components/text/bncc'
 import SubtitleBar from '../../../components/subtitle-bar'
 import Activities from '../../../services/activities'
 import IntegralActivity from '../../../components/integral-activity'
-import ApertoSVG from '../../../images/content/micromundo-ii/aperto.svg'
 
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
@@ -37,16 +35,15 @@ class Seven extends React.Component {
           <p><span style={{color:'red'}}>c)</span>  Algoritmos;</p>
           <p><span style={{color:'red'}}>d)</span>  Reconhecimento de Padrões;</p>
           <EmptySpace />
-          <p>Associe cada uma das frases a seguir, com o pilar do Pensamento Computacional que <strong>mais pode auxiliar</strong> na execução da tarefa. </p>
-<p>Marque após a opção correta de sequência de letras:</p>
-<p>Deﬁnir o trajeto a ser percorrido de modo a cumprir o conjunto de ruas designado para a dupla/grupo;
+          <p>Associe cada uma das frases a seguir, com o pilar do Pensamento Computacional <strong>mais adequado</strong> para a execução da tarefa e, logo após, marque a opção correta de sequência de letras. </p>
+<p>- Deﬁnir o trajeto a ser percorrido de modo a cumprir o conjunto de ruas designado para a dupla/grupo;
 </p>
-<p>Considerando que o registro contempla destaques de qualquer natureza, classiﬁcar esses destaques como capazes de valorizar ou desvalorizar o bairro;
+<p>- Considerando que o registro contempla destaques de qualquer natureza, classiﬁcar esses destaques como capazes de valorizar ou desvalorizar o bairro;
 </p>
-<p>Usando os registros dos vários itens, subdividir o bairro em zonas, considerando a categoria que melhor descreve cada zona: residencial, comercial, serviços públicos, lazer, outros;
+<p>- Usando os registros dos vários itens, subdividir o bairro em zonas, considerando a categoria que melhor descreve cada zona: residencial, comercial, serviços públicos, lazer, outros;
 
 </p>
-<p>Identiﬁcar o estilo dos prédios do bairro a partir dos registros.</p>
+<p>- Identiﬁcar o estilo dos prédios do bairro a partir dos registros.</p>
 
 
 

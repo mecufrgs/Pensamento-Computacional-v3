@@ -10,7 +10,8 @@ const Logo = () => (
         <div className='underline-box'>
             <div className='underline'/>
         </div>
-        <p>Aplicações do Pensamento Computacional para os Anos Iniciais do Ensino Fundamental</p>
+        <div >
+        <p className="mainText">Aplicações do Pensamento Computacional para os Anos Iniciais do Ensino Fundamental</p></div>
     </div>
 )
 

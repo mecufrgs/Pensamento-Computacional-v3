@@ -44,7 +44,7 @@ Computacional (e as correspondentes letras que os identificam):</p>
           <p><span style={{color:'red'}}>c)</span>  Reconhecimento de Padrões;</p>
           <p><span style={{color:'red'}}>d)</span>  Algoritmos;</p>
           <EmptySpace />
-          <p>Associe cada uma das frases a seguir com o pilar do Pensamento Computacional <b>mais adequado</b>  para a execução da tarefa e, logo após, marque a opção correta de sequência de letras.</p>
+          <p>Associe cada uma das frases a seguir com o pilar do Pensamento Computacional <b>mais adequado</b>  para a execução da tarefa e, logo após, marque a opção correta de sequência de letras:</p>
 
 <p><span style={{color:'red'}}>Níveis da pirâmide alimentar:</span> A lista deverá conter alimentos de todos os
 níveis da pirâmide alimentar (energéticos, reguladores, construtores,

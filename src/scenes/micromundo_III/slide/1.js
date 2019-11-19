@@ -1,15 +1,14 @@
 import React from 'react'
-import SlideCount from '../../../constants/slide-count'
 import ContentBox from '../../../components/content-box'
 import Image from '../../../components/image'
 import PrimaryText from '../../../components/text/primary'
 import EmptySpace from '../../../components/empty-space'
-import ImageSlide from '../../../components/image-slide'
 import FeiraSVG from '../../../images/content/micromundo-iii/praca.svg'
-import FalaUmSVG from '../../../images/content/micromundo-ii/1-1-fala.svg'
-import FalaDoisSVG from '../../../images/content/micromundo-ii/1-2-fala.svg'
-import FalaTresSVG from '../../../images/content/micromundo-ii/1-3-fala.svg'
-
+import FalaUmSVG from '../../../images/content/micromundo-iii/3-1-fala.svg'
+import FalaDoisSVG from '../../../images/content/micromundo-iii/3-2-fala.svg'
+import FalaTresSVG from '../../../images/content/micromundo-iii/3-3-fala.svg'
+import ImageSlide from '../../../components/image-slide'
+import SlideCount from '../../../constants/slide-count'
 /*Props
   renderTop: function(bool), called to show the header
 */
@@ -36,7 +35,7 @@ class One extends React.Component {
   render() {
     return (
       <ContentBox>
-        {/* <ImageSlide getSlide={this.getSlideImage} slideCount={SlideCount.MICROMUNDO_II_DIALOG} /> */}
+         <ImageSlide getSlide={this.getSlideImage} slideCount={SlideCount.MICROMUNDO_III_DIALOG} /> 
         <PrimaryText>
           <p>Um bairro tem uma localização especíﬁca dentro de uma cidade e faz fronteira com bairros vizinhos. Suas ruas possuem nomes, o que pode nos levar a tomar conhecimento sobre pessoas ou acontecimentos associados com a história do bairro, da cidade, do estado, do país, ou até mesmo da humanidade.
  </p>

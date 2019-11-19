@@ -24,7 +24,6 @@ class Micromundo_II extends BaseScene {
       hasNextUnit: true,
       hasPreviousUnit: true
     }
-    this.getUnitState()
   }
 
   renderSlide = () => {
