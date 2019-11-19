@@ -20,7 +20,7 @@ class Micromundo_I extends BaseScene {
       slideCount: SlideCount.MICROMUNDO_I,
       slide: props.slide,
       hasNextUnit: true,
-      hasPreviousUnit: true
+      hasPreviousUnit: true,
     }
     console.log("PREVIOUS:")
     console.log(this.state.hasPreviousUnit)

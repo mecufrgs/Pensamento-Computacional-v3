@@ -132,6 +132,7 @@ class BaseScene extends Error {
     }
 
     render(slide) {
+        console.log("NEXT: " + this.state.hasNextUnit + " PREV: " + this.state.hasPreviousUnit)
         return (
             <Fragment>
                 <TopMenu 
@@ -154,7 +155,7 @@ class BaseScene extends Error {
                 </div>  
                 <Footer
                     hasNextUnit={this.state.hasNextUnit} 
-                    hasPreviousUnit={this.state.HasPreviousUnit} 
+                    hasPreviousUnit={this.state.hasPreviousUnit} 
                     slide={this.state.slide} 
                     onChangeUnit={this.onChangeUnit} 
                     onChangeSlide={this.onChangeSlide} 
