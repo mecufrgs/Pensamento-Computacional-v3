@@ -28,7 +28,7 @@ class Seven extends React.Component {
           <EmptySpace />
           <Image center src={GuardaRoupasSVG} alt='Imagem de guarda-roupas com diversos itens como: vestidos, chapéus, casacos, mala, bolsa, sapatos, roupas de cama, algumas caixas e gavetas.' />
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: História, Geografia, Ciências e Língua Portuguesa.</TextBNCC>
-          <p>Qual o par de pilares do Pensamento Computacional que será exercitado com mais ênfase na concepção e realização desta parte da apresentação?</p>
+          <p>Qual o par de pilares do Pensamento Computacional que será exercitado com <b>mais ênfase</b> na concepção e realização desta parte da apresentação?</p>
           <IntegralActivity activity={Activities.getMicromundoIActiviryFour(this.props.unitId)} />
         </PrimaryText>
       </ContentBox>

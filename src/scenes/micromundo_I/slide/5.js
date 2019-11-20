@@ -28,7 +28,7 @@ class Five extends React.Component {
           <EmptySpace />
           <Image center src={CasasSVG} alt='Imagem mostrando uma casa azul e uma casa amarela' />
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Matemática, Ciências e Geografia.</TextBNCC>
-          <p>Qual o pilar do Pensamento Computacional que será exercitado com mais ênfase na concepção e realização desta parte da apresentação? </p>
+          <p>Qual o pilar do Pensamento Computacional que será exercitado com <b>mais ênfase</b> na concepção e realização desta parte da apresentação? </p>
           <IntegralActivity activity={Activities.getMicromundoIActiviryTwo(this.props.unitId)} />
         </PrimaryText>
       </ContentBox>

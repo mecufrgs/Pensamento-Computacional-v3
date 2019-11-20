@@ -28,7 +28,7 @@ class Six extends React.Component {
           <EmptySpace />
           <Image center src={CaminhosSVG} alt='Três setas direcionais apontando para direções distintas.' />
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Geografia, Matemática e Língua Portuguesa.</TextBNCC>
-          <p>Qual o pilar do Pensamento Computacional que será exercitado com mais ênfase na concepção e realização desta parte da apresentação?</p>
+          <p>Qual o pilar do Pensamento Computacional que será exercitado com <b>mais ênfase</b> na concepção e realização desta parte da apresentação?</p>
           <IntegralActivity activity={Activities.getMicromundoIActiviryThree(this.props.unitId)} />
         </PrimaryText>
       </ContentBox>

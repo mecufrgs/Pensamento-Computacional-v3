@@ -13,7 +13,7 @@ class Three extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-            <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA 1' subtitle='Estendendo o Registro'/>
+            <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA 2' subtitle='Estendendo o Registro'/>
             <p>O registro de informações sobre as ruas de um bairro pode ser estendido para incluir especiﬁcamente itens importantes ou notáveis relativos à saúde, alimentação, segurança, mobilidade, lazer, etc. </p>
 
           
