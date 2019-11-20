@@ -125,7 +125,7 @@ class Activities {
                             value: "0",
                             key: "1",
                             text: "Algoritmos e Decomposição",
-                            tip: "O par de pilares Algoritmos e Decomposição não é central na organização do armário de D. Veridiana, mas poderá ser exercitado quando, por exemplo, no processo de organização (pilar Algoritmo) final do acervo, quando as roupas forem dispostas novamente no armário, conforme a organização definida e quando a tarefa inicial for decomposta (pilar Decomposição) em outras, como organizar as roupas da D. Veridiana, organizar as roupas dos filhos, etc."
+                            tip: "O par de pilares Algoritmos e Decomposição não é central na organização do armário de D. Veridiana, mas poderá ser exercitado quando, por exemplo, no processo de organização (pilar Algoritmos) final do acervo, quando as roupas forem dispostas novamente no armário, conforme a organização definida e quando a tarefa inicial for decomposta (pilar Decomposição) em outras, como organizar as roupas da D. Veridiana, organizar as roupas dos filhos, etc."
                         },
                         {
                             value: "1",
@@ -226,7 +226,7 @@ getMicromundoIIActiviryTwo = (unitId) => {
                         value: "0",
                         key: "5",
                         text: "Generalização",
-                        tip: "Generalização não é um pilar do Pensamento Computacional."
+                        tip: "Generalização não integra a lista de pilares do Pensamento Computacional aqui considerados, a saber: Abstração, Decomposição, Reconhecimento de Padrões e Algoritmos."
                     }
 
                 ]

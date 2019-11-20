@@ -15,7 +15,7 @@ class Three extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-            <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA' subtitle='Numa feira de artesanato'/>
+            <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA 2' subtitle='Numa feira de artesanato'/>
             <p>É frequente que uma feira livre tenha uma área ou setor destinado à
 comercialização de produtos artesanais ou comerciais, selecionados
 pelos vendedores segundo demandas específicas (como ferramentas ou
@@ -28,7 +28,7 @@ utilidades domésticas).</p>
             </div>
           </div>
           <EmptySpace/>
-<Subtitle>Questão Avaliativa</Subtitle>
+<Subtitle>Questões Avaliativas</Subtitle>
           <p>Prosseguindo em nossa Situação-problema, convidamos você a selecionar, na Questão Avaliativa a seguir, o pilar do Pensamento Computacional <b>mais apropriado.</b> </p>
         
  </PrimaryText>

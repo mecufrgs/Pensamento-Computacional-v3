@@ -14,7 +14,7 @@ class Two extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-            <SubtitleBar type={1} title='EVENTO' subtitle='Fazendo as compras da semana na Feira Livre'/>
+            <SubtitleBar type={1} title='EVENTO 1' subtitle='Fazendo as compras da semana na Feira Livre'/>
             
             <div style={{textAlign:"center", width:"100%"}}>
             <div style={{display:"inline-block"}}>

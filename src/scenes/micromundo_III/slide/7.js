@@ -35,7 +35,7 @@ class Seven extends React.Component {
           <p><span style={{color:'red'}}>c)</span>  Algoritmos;</p>
           <p><span style={{color:'red'}}>d)</span>  Reconhecimento de Padrões;</p>
           <EmptySpace />
-          <p>Associe cada uma das frases a seguir, com o pilar do Pensamento Computacional <strong>mais adequado</strong> para a execução da tarefa e, logo após, marque a opção correta de sequência de letras. </p>
+          <p>Associe cada uma das frases a seguir, com o pilar do Pensamento Computacional <strong>mais adequado</strong> para a execução da tarefa e, logo após, marque a opção correta de sequência de letras:   </p>
 <p>- Deﬁnir o trajeto a ser percorrido de modo a cumprir o conjunto de ruas designado para a dupla/grupo;
 </p>
 <p>- Considerando que o registro contempla destaques de qualquer natureza, classiﬁcar esses destaques como capazes de valorizar ou desvalorizar o bairro;
