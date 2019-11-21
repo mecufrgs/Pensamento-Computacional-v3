@@ -22,8 +22,14 @@ class Four extends React.Component {
           <p>
             Em cada um dos Micromundos, serão apresentados <Bold>Eventos</Bold> relevantes, ou seja, acontecimentos sociais, onde atividades significativas serão realizadas, algumas de forma individual e outras de forma cooperativa. As atividades significativas são tratadas como <Bold>Situações-problema</Bold> e, associadas a elas, são introduzidas <Bold>Questões Avaliativas</Bold>, onde são sugeridas possibilidades de trabalho com habilidades conforme a BNCC.
           </p>
+          <p>
+           É justamente nas Questões Avaliativas que @s cursistas são convidad@s a refletirem sobre o uso dos pilares do Pensamento Computacional, como estratégia de apoio para execução de tarefas e solução de problemas, e são sugeridas possibilidades de trabalho com habilidades conforme a BNCC.
+          </p>
           <EmptySpace/>
           <Image src={QuadroUmSVG} alt='Observar que nos Micromundos são apresentados cenários mais amplos que o exigido pelas Questões Avaliativas. Os Micromundos contêm portanto elementos para auxiliar e inspirar você, caro cursista, na exploração de casos particulares e na criação de seus próprios contextos.'/>
+          <EmptySpace/>
+          Outro curso, "Aplicações do Pensamento Computacional para os Anos Finais do Ensino Fundamental", nesta mesma plataforma, com enfoque e estrutura semelhantes a este, trata de aplicações do Pensamento Computacional para os Anos Finais do Ensino Fundamental, em nível de complexidade adequado a esses anos.
+
         </PrimaryText>
       </ContentBox>
     )
