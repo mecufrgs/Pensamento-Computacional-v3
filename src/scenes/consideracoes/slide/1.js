@@ -1,11 +1,7 @@
 import React from 'react'
-import SlideCount from '../../../constants/slide-count'
 import ContentBox from '../../../components/content-box'
-import Image from '../../../components/image'
 import PrimaryText from '../../../components/text/primary'
 
-import EmptySpace from '../../../components/empty-space'
-import ImageSlide from '../../../components/image-slide'
 import FalaUmSVG from '../../../images/content/introducao/1-1-fala.svg'
 import FalaDoisSVG from '../../../images/content/introducao/1-2-fala.svg'
 import FalaTresSVG from '../../../images/content/introducao/1-3-fala.svg'

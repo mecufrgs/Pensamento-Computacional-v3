@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from '../image'
-import PageUpImage from '../../images/component/page-up.png'
+import PageUpImage from '../../images/component/page-up.svg'
 import HTMLService from '../../services/html'
 
 class PageUp extends React.Component {

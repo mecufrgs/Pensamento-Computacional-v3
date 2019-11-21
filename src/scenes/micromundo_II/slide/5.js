@@ -15,7 +15,7 @@ class Three extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-            <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA 2' subtitle='Numa feira de artesanato'/>
+            <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA 2' subtitle='Numa Feira de Artesanato'/>
             <p>É frequente que uma feira livre tenha uma área ou setor destinado à
 comercialização de produtos artesanais ou comerciais, selecionados
 pelos vendedores segundo demandas específicas (como ferramentas ou

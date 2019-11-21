@@ -16,7 +16,7 @@ class Three extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-            <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA 1' subtitle='A lista de compras'/>
+            <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA 1' subtitle='A Lista de Compras'/>
             <p>Uma etapa que antecede as compras numa feira livre é a elaboração de
 uma lista do que comprar. Embora num primeiro momento isso pareça
 trivial, essa tarefa pode envolver questões com diferentes níveis de

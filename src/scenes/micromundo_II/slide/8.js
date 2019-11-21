@@ -23,7 +23,7 @@ class Five extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 4' subtitle='Análise de custo benefício'/>
+          <SubtitleBar type={3} title='Questão Avaliativa - 4' subtitle='Análise de Custo Benefício'/>
           <p>Nem sempre o produto mais barato é o que vai oferecer a melhor
 satisfação ao comprador. Em geral é importante levantar outros fatores
 dos produtos que agradam ao comprador, ou seja, considerar o preço, o

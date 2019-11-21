@@ -23,7 +23,7 @@ class Six extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 3' subtitle='Os caminhos de Dona Veridiana'/>
+          <SubtitleBar type={3} title='Questão Avaliativa - 3' subtitle='Os Caminhos de Dona Veridiana'/>
           <p>Um grupo será responsável por descrever os caminhos da Dona Veridiana em três etapas diferentes da vida: quando morava com os pais, depois de casada e no momento atual. Os trajetos possíveis em cada uma dessas etapas da vida são sequenciados segundo horas, dias ou eventos.</p>
           <EmptySpace />
           <Image center src={CaminhosSVG} alt='Três setas direcionais apontando para direções distintas.' />

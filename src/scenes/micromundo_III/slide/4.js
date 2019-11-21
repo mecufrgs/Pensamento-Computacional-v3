@@ -21,7 +21,7 @@ class Four extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 1' subtitle='Organizando documentos' />
+          <SubtitleBar type={3} title='Questão Avaliativa - 1' subtitle='Organizando Documentos' />
           <p>Como resultado das atividades dos alunos, haverá vários documentos apresentando informações sobre as ruas onde os alunos residem. Poderia ser interessante que os alunos buscassem explorar o conteúdo dessa coleção de documentos, com o objetivo de construir conhecimento. 
  </p>
           <EmptySpace />

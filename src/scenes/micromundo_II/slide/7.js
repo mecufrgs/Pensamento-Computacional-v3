@@ -23,7 +23,7 @@ class Seven extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 3' subtitle='Negociando preços'/>
+          <SubtitleBar type={3} title='Questão Avaliativa - 3' subtitle='Negociando Preços'/>
           <p>Em casos onde mais de um produto ou mais de uma unidade do mesmo
 produto são adquiridos, é frequente que haja negociação de preços entre
 comprador e vendedor. Ainda que não haja uma única regra, é possível

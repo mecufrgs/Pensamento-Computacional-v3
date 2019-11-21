@@ -8,7 +8,6 @@ import SubtitleBar from '../../../components/subtitle-bar'
 import Activities from '../../../services/activities'
 import IntegralActivity from '../../../components/integral-activity'
 import PresenteSVG from '../../../images/content/micromundo-ii/presente.svg'
-import Subtitle from '../../../components/text/subtitle'
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
 .*/
@@ -23,7 +22,7 @@ class Six extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 2' subtitle='Escolhendo um presente'/>
+          <SubtitleBar type={3} title='Questão Avaliativa - 2' subtitle='Escolhendo um Presente'/>
           <p>O elenco de produtos potencialmente adequados para um presente
 depende de sua "aderência" a aspectos conhecidos (idade, gostos, etc.) da
 pessoa a ser presenteada.</p>

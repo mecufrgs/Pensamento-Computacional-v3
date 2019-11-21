@@ -23,10 +23,10 @@ class Four extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 1' subtitle='A infância de Dona Veridiana'/>
+          <SubtitleBar type={3} title='Questão Avaliativa - 1' subtitle='A Infância de Dona Veridiana'/>
           <p>Um grupo será responsável por reproduzir (encenar) as brincadeiras da época da infância da Dona Veridiana, usando como estratégia apresentar brincadeiras de casa, de rua, individuais e coletivas, em diferentes faixas etárias.</p>
           <EmptySpace />
-          <Image center src={CriancasSVG} alt='Imagem com crianças brincande de: futebol, avião, bicicleta, carrinhos, animais de pelucia e ábaco' />
+          <Image center src={CriancasSVG} alt='Imagem com crianças brincam de de: futebol, avião, bicicleta, carrinhos, animais de pelucia e ábaco' />
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: História, Geografia, Língua Portuguesa e Educação Física.</TextBNCC>
           <p>Qual o pilar do Pensamento Computacional que será exercitado com <b>mais ênfase</b> na concepção e realização desta parte da apresentação?</p>
           <IntegralActivity activity={Activities.getMicromundoIActiviryOne(this.props.unitId)} />

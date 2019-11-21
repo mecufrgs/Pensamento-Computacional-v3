@@ -21,7 +21,7 @@ class Seven extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 3' subtitle='Usando os registros para conhecer o bairro'/>
+          <SubtitleBar type={3} title='Questão Avaliativa - 3' subtitle='Usando os Registros para Conhecer o Bairro'/>
           <p>Duplas ou grupos poderiam percorrer as ruas, relacionando (e se possível fotografando) itens,  registrando a rua e seu número (exato ou de uma ediﬁcação próxima) e descrevendo o que foi observado. </p>
           <EmptySpace />
 
