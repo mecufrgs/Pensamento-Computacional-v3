@@ -26,7 +26,7 @@ class Seven extends React.Component {
           <SubtitleBar type={3} title='Questão Avaliativa - 3' subtitle='Negociando Preços'/>
           <p>Em casos onde mais de um produto ou mais de uma unidade do mesmo
 produto são adquiridos, é frequente que haja negociação de preços entre
-comprador e vendedor. Ainda que não haja uma única regra, é possível
+comprador e vendedor. Ainda que não haja uma única regra, que possa ser seguida por todos os vendedores da feira, é possível
 pensar num roteiro para isso.</p>
           <EmptySpace />
 

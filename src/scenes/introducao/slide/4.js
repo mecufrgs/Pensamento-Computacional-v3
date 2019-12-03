@@ -25,6 +25,9 @@ class Four extends React.Component {
           <p>
            É justamente nas Questões Avaliativas que @s cursistas são convidad@s a refletirem sobre o uso dos pilares do Pensamento Computacional, como estratégia de apoio para execução de tarefas e solução de problemas, e são sugeridas possibilidades de trabalho com habilidades conforme a BNCC.
           </p>
+          <p>
+            Mas muito  além das indicações de possibilidades de trabalho com habilidades da BNCC, que integram os textos das Questões Avaliativas, e que podem ser exploradas nos vários contextos propostos, a concepção e o desenvolvimento do curso buscaram considerar as várias dimensões do aluno na perspectiva da BNCC.
+          </p>
           <EmptySpace/>
           <Image src={QuadroUmSVG} alt='Observar que nos Micromundos são apresentados cenários mais amplos que o exigido pelas Questões Avaliativas. Os Micromundos contêm portanto elementos para auxiliar e inspirar você, caro cursista, na exploração de casos particulares e na criação de seus próprios contextos.'/>
           <EmptySpace/>

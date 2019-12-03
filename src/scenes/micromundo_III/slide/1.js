@@ -39,7 +39,6 @@ class One extends React.Component {
         <PrimaryText>
           <p>Um bairro tem uma localização especíﬁca dentro de uma cidade e faz fronteira com bairros vizinhos. Suas ruas possuem nomes, o que pode nos levar a tomar conhecimento sobre pessoas ou acontecimentos associados com a história do bairro, da cidade, do estado, do país, ou até mesmo da humanidade.
  </p>
- <EmptySpace/>
           <div style={{textAlign:"center", width:"100%"}}>
             <div style={{display:"inline-block"}}>
           <Image  center width="534px"  src={FeiraSVG} alt='Praça'/>

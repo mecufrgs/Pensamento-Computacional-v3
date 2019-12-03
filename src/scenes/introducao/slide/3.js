@@ -24,9 +24,7 @@ class Three extends React.Component {
           <EmptySpace/>
           <Image src={QuadroUmSVG} alt='Quadro com o seguinte texto: "As características dessa faixa etária demandam um trabalho no ambiente escolar que se organize em torno dos interesses manifestos pelas crianças, de suas vivências mais imediatas para que, com base nessas vivências, elas possam, progressivamente, ampliar essa compreensão, o que se dá pela mobilização de operações cognitivas cada vez mais complexas e pela sensibilidade para apreender o mundo, expressar-se sobre ele e nele atuar."'/>
           <EmptySpace/>
-          <p>
-            Mas muito  além das indicações de possibilidades de trabalho com habilidades da BNCC, que integram os textos das Questões Avaliativas, e que podem ser exploradas nos vários contextos propostos, a concepção e o desenvolvimento do curso buscaram considerar as várias dimensões do aluno na perspectiva da BNCC.
-          </p>
+
         </PrimaryText>
       </ContentBox>
     )

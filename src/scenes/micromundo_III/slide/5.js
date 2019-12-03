@@ -23,7 +23,7 @@ class Six extends React.Component {
         <PrimaryText>
           <SubtitleBar type={3} title='Questão Avaliativa - 2' subtitle='Descrevendo Seu Bairro'/>
           <p>O levantamento e o registro produzidos pelos alunos podem ajudar a caracterizar o bairro sob a perspectiva dos próprios moradores. Considere que os documentos gerados no registro sejam usados para produzir uma descrição do bairro segundo essa perspectiva - espera-se que a partir dessa análise surjam termos descritores, como "polo gastronômico" ou "arquitetura de inspiração lusitana" ou ainda "espaço cultural". </p>
-          <EmptySpace />
+  
 
           
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Arte, Geograﬁa e Língua Portuguesa.</TextBNCC>

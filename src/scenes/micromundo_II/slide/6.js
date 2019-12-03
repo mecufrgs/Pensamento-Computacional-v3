@@ -23,7 +23,7 @@ class Six extends React.Component {
       <ContentBox>
         <PrimaryText>
           <SubtitleBar type={3} title='Questão Avaliativa - 2' subtitle='Escolhendo um Presente'/>
-          <p>O elenco de produtos potencialmente adequados para um presente
+          <p>Uma feira livre, pela diversidade de produtos à venda, pode ser um ótimo lugar para encontrar opções interessantes de presentes. O elenco de produtos potencialmente adequados para um presente
 depende de sua "aderência" a aspectos conhecidos (idade, gostos, etc.) da
 pessoa a ser presenteada.</p>
           <EmptySpace />

@@ -105,7 +105,7 @@ class Activities {
                             value: "1",
                             key: "4",
                             text: "Algoritmos",
-                            tip: "Este  será o pilar exercitado com mais ênfase na descrição dos caminhos da D. Veridiana, já que o objeto da atividade é a descrição de trajetos, em que cada etapa é sequenciada."
+                            tip: "A descrição de um caminho percorrido rotineiramente envolve descrever de que forma um conjunto de ações básicas é executado: como essas ações são sequenciadas e quais as condições que devem ser satisfeitas para que determinadas ações sejam executadas. Enfim, a descrição de um trajeto requer elementos que são típicos do pilar Algoritmos."
                         }
                     ]
                 }
@@ -176,7 +176,7 @@ getMicromundoIIActiviryOne = (unitId) => {
                         value: "1",
                         key: "3",
                         text: "a, b, c, d",
-                        tip: "O pilar Abstração será exercitado com mais ênfase, pois como o objetivo é a lista conter alimentos de todos os níveis da pirâmide alimentar, ao considerar-se um nível, abstraindo-se os demais, obrigatoriamente deverá ser inserido pelo menos um alimento desse nível na lista. O pilar Decomposição será exercitado com mais ênfase, visto que o momento de consumo dos alimentos está refletido nas principais refeições do dia e a lista deve contemplar alimentos para todas essas refeições. O pilar Reconhecimento de Padrões será exercitado com mais ênfase, tendo em vista que na lista deverão ser inseridos alimentos selecionados segundo frequências de consumo determinadas, por exemplo, para refeições diárias, em confraternizações familiares de fim de semana e em datas especiais. O pilar Algoritmos será exercitado com mais ênfase, tendo em vista que envolve logísticas de acomodação e transporte das compras."
+                        tip: "O pilar Abstração será exercitado com mais ênfase, no atendimento da  recomendação R1, pois como o objetivo é a lista conter alimentos de todos os níveis da pirâmide alimentar, ao considerar-se um nível, abstraindo-se os demais, obrigatoriamente deverá ser inserido pelo menos um alimento desse nível na lista. O pilar Decomposição será exercitado com mais ênfase, no atendimento da recomendação R2, visto que o momento de consumo dos alimentos está refletido nas principais refeições do dia e a lista deve contemplar alimentos para todas essas refeições. O pilar Reconhecimento de Padrões será exercitado com mais ênfase, no atendimento da recomendação R3, tendo em vista que na lista deverão ser inseridos alimentos selecionados segundo frequências de consumo determinadas, por exemplo, para refeições diárias, em confraternizações familiares de fim de semana e em datas especiais. O pilar Algoritmos será exercitado com mais ênfase, no atendimento da recomendação R4, tendo em vista que envolve logísticas de acomodação e transporte das compras."
                     },
                     {
                         value: "0",
@@ -352,7 +352,7 @@ getMicromundoIIIActiviryOne = (unitId) => {
                         value: "1",
                         key: "4",
                         text: "b, c, a, d",
-                        tip: "O pilar Abstração será exercitado com mais ênfase, pois para agrupar os estabelecimentos encontrados será considerada a natureza da sua atividade principal, abstraindo-se o resto. O pilar Algoritmos será exercitado com mais ênfase, tendo em vista que o objeto da atividade é descrever um percurso. O pilar Decomposição será exercitado com mais ênfase na decomposição da forma de nomeação dos nomes de ruas em seus diversos tipos. O pilar Reconhecimento de Padrões será exercitado com mais ênfase, tendo em vista que, ao agrupar os textos dos alunos considerando a quantidade de estabelecimentos não comerciais, estamos na realidade reconhecendo um padrão de zonas mais ou menos residenciais."
+                        tip: "O pilar Abstração será exercitado com mais ênfase na tarefa T1, pois para agrupar os estabelecimentos encontrados será considerada a natureza da sua atividade principal, abstraindo-se o resto. O pilar Algoritmos será exercitado com mais ênfase na tarefa T2, tendo em vista que o objeto da atividade é descrever um percurso. O pilar Decomposição será exercitado com mais ênfase na decomposição da forma de nomeação dos nomes de ruas em seus diversos tipos (tarefa T3) . O pilar Reconhecimento de Padrões será exercitado com mais ênfase na tarefa T4, tendo em vista que, ao agrupar os textos dos alunos considerando a quantidade de estabelecimentos não comerciais, estamos na realidade reconhecendo um padrão de zonas mais ou menos residenciais."
                     }
                 ]
             }
@@ -417,7 +417,7 @@ getMicromundoIIIActiviryThree = (unitId) => {
                         value: "1",
                         key: "2",
                         text: "c, d, a, b",
-                        tip: "O pilar Algoritmos será exercitado com mais ênfase, já que o objeto da atividade é a definição do trajeto a ser percorrido pela dupla/grupo. O pilar Reconhecimento de Padrões será exercitado com mais ênfase nessa atividade, já que os destaques serão agrupados segundo critérios de valorização ou desvalorização do bairro. O pilar Decomposição será exercitado com mais ênfase na decomposição do bairro em zonas. O pilar Abstração será exercitado com mais ênfase, pois, para identificar o estilo de um prédio, só os aspectos que definem o estilo serão considerados, sendo os demais abstraídos."
+                        tip: "O pilar Algoritmos será exercitado com mais ênfase, já que o objeto da tarefa T1  é a definição do trajeto a ser percorrido pela dupla/grupo. O pilar Reconhecimento de Padrões será exercitado com mais ênfase na tarefa T2, já que os destaques serão agrupados segundo critérios de valorização ou desvalorização do bairro. O pilar Decomposição será exercitado com mais ênfase na decomposição do bairro em zonas (tarefa T3). O pilar Abstração será exercitado com mais ênfase em T4 , pois, para identificar o estilo de um prédio, só os aspectos que definem o estilo serão considerados, sendo os demais abstraídos."
                     },
                     {
                         value: "0",

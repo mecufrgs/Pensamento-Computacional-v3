@@ -19,8 +19,7 @@ class Three extends React.Component {
            <br/>b) uma listagem das principais construções não residenciais: para cada um dos estabelecimentos é importante descrever como é usado, seus dias e horários de funcionamento, os grupos de frequentadores, etc.;
            <br/>c) outros elementos de destaque na rua (com uma breve descrição).</p>
 
-          
-           <EmptySpace/>
+        
 <Subtitle>Questões Avaliativas</Subtitle>
           <p>Prosseguindo em nossa Situação-problema, convidamos você a selecionar, nas Questões Avaliativas a seguir, o pilar do Pensamento Computacional <b>mais apropriado.</b> </p>
         

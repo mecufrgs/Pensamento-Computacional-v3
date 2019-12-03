@@ -37,14 +37,13 @@ class Four extends React.Component {
           <p><span style={{color:'red'}}>b)</span>  Abstração;</p>
           <p><span style={{color:'red'}}>c)</span>  Algoritmos;</p>
           <p><span style={{color:'red'}}>d)</span>  Reconhecimento de Padrões.;</p>
-          <EmptySpace />
-          <p>Associe cada uma das frases a seguir com o pilar do Pensamento Computacional <b>mais adequado</b> para a execução da tarefa e, logo após, marque a opção correta de sequência de letras: </p>
+          <p>Associe cada uma das tarefas a seguir com o pilar do Pensamento Computacional <b>mais adequado</b> para a execução da tarefa e, logo após, marque a opção correta de sequência de letras: </p>
 
-<p>- Identiﬁcar as características em comum que facilitem agrupar os estabelecimentos encontrados, considerando a natureza da atividade principal do estabelecimento;</p>
-<p>- Descrever o percurso a ser percorrido por cada aluno para sair de sua casa e visitar cada um dos estabelecimentos identiﬁcados em sua rua;</p>
-<p>- Produzir uma apresentação sobre a natureza dos nomes de ruas, considerando um conjunto de tipos previamente deﬁnidos (por exemplo: nomes de pessoas, locais, eventos, datas comemorativas, outros);
+<p><b>T1</b> - Identiﬁcar as características em comum que facilitem agrupar os estabelecimentos encontrados, considerando a natureza da atividade principal do estabelecimento;</p>
+<p><b>T2</b> - Descrever o percurso a ser percorrido por cada aluno para sair de sua casa e visitar cada um dos estabelecimentos identiﬁcados em sua rua;</p>
+<p><b>T3</b> - Produzir uma apresentação sobre a natureza dos nomes de ruas, considerando um conjunto de tipos previamente deﬁnidos (por exemplo: nomes de pessoas, locais, eventos, datas comemorativas, outros);
 </p>
-<p>- Agrupar os textos dos alunos, considerando a quantidade de estabelecimentos não residenciais relacionados em cada lista. </p>
+<p><b>T4</b> - Agrupar os textos dos alunos, considerando a quantidade de estabelecimentos não residenciais relacionados em cada lista. </p>
 
 
           <IntegralActivity activity={Activities.getMicromundoIIIActiviryOne(this.props.unitId)} />

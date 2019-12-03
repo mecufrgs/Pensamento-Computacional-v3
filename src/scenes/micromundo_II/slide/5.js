@@ -16,10 +16,7 @@ class Three extends React.Component {
       <ContentBox>
         <PrimaryText>
             <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA 2' subtitle='Numa Feira de Artesanato'/>
-            <p>É frequente que uma feira livre tenha uma área ou setor destinado à
-comercialização de produtos artesanais ou comerciais, selecionados
-pelos vendedores segundo demandas específicas (como ferramentas ou
-utilidades domésticas).</p>
+            <p>É frequente que em uma feira livre, além de produtos alimentícios como frutas e verduras, haja uma área destinada à comercialização de produtos artesanais ou industriais.  Nesses espaços é possível adquirir desde ferramentas e utensílios domésticos, até opções interessantes para. E, ao contrário do que ocorre no comércio tradicional as oportunidades para negociação de preços tendem a ser maiores.</p>
 
 
 <div style={{textAlign:"center", width:"100%"}}>
