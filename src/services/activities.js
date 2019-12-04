@@ -372,26 +372,26 @@ getMicromundoIIIActiviryTwo = (unitId) => {
                     {
                         value: "1",
                         key: "1",
-                        text: "Abstração",
-                        tip: "Este pilar é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, pois o levantamento e o registro produzidos pelos alunos deverão ser examinados, procurando isolar e destacar os elementos de interesse dos moradores. O pilar Reconhecimento de Padrões também é central e seria uma resposta correta."
+                        text: "Abstração e Reconhecimento de Padrões",
+                        tip: "O pilar Abstração é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, pois o levantamento e o registro produzidos pelos alunos deverão ser examinados, procurando isolar e destacar os elementos de interesse dos moradores. Igualmente o pilar Reconhecimento de Padrões é central, pois os termos descritores deverão surgir a partir de padrões observados  nos registros do bairro, por exemplo, número expressivo de bares e restaurantes, prédios conforme determinado período arquitetônico, etc."
                     },
                     {
                         value: "0",
                         key: "2",
-                        text: "Decomposição",
-                        tip: "Este pilar não é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, mas até poderá ser exercitado se o volume de informações a ser processado demandar algum tipo de divisão do material entre grupos, subgrupos,  para permitir seu exame em um tempo mais razoável ou com detalhes mais específicos."
+                        text: "Abstração e Decomposição",
+                        tip: "O pilar Abstração é adequado para produzir uma descrição do bairro sob a perspectiva de quem o habita, pois o levantamento e o registro produzidos pelos alunos deverão ser examinados, procurando isolar e destacar os elementos de interesse dos moradores. Por outro lado, o pilar  Decomposição não é central, mas até poderá ser exercitado se o volume de informações a ser processado demandar algum tipo de divisão do material entre grupos, subgrupos, para permitir seu exame em um tempo mais razoável ou com detalhes mais específicos."
                     },
                     {
-                        value: "1",
+                        value: "0",
                         key: "3",
-                        text: "Reconhecimento de Padrões",
-                        tip: "Este pilar é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, pois os termos descritores deverão surgir a partir de padrões observados nos registros do bairro, por exemplo, número expressivo de bares e restaurantes, prédios conforme determinado período arquitetônico, etc. O pilar Abstração também é central e seria uma resposta correta."
+                        text: "Reconhecimento de Padrões e Algoritmos",
+                        tip: "O pilar Reconhecimento de Padrões é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, pois os termos descritores deverão surgir a partir de padrões observados nos registros do bairro, por exemplo, número expressivo de bares e restaurantes, prédios conforme determinado período arquitetônico, etc. Por outro lado, o pilar Algoritmos não é central, mas até poderá ser exercitado, por exemplo, na definição de estratégias para examinar os documentos do bairro, se eles se revelarem em volume expressivo."
                     },
                     {
                         value: "0",
                         key: "4",
-                        text: "Algoritmos",
-                        tip: "Este pilar não é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, mas até poderá ser exercitado, por exemplo, na definição de estratégias para examinar os documentos do bairro, se eles se revelarem em volume expressivo."
+                        text: "Algoritmos e Decomposição",
+                        tip: "O pilar Algoritmos não é central para produzir uma descrição do bairro sob a perspectiva de quem o habita, mas até poderá ser exercitado, por exemplo, na definição de estratégias para examinar os documentos do bairro, se eles se revelarem em volume expressivo. Igualmente o pilar Decomposição não é central, mas até poderá ser exercitado se o volume de informações a ser processado demandar algum tipo de divisão do material entre grupos, subgrupos,  para permitir seu exame em um tempo mais razoável ou com detalhes mais específicos."
                     }
 
                 ]

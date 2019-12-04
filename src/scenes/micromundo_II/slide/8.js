@@ -12,7 +12,7 @@ import MPensandoSVG from '../../../images/content/micromundo-ii/MPensando.svg'
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
 .*/
-class Five extends React.Component {
+class Eight extends React.Component {
 
   constructor(props) {
     super(props)
@@ -50,4 +50,4 @@ será exercitado com <b>mais ênfase</b> na escolha: </p>
   }
 }
 
-export default Five
+export default Eight

@@ -6,7 +6,7 @@ import Image from '../../../components/image'
 import Subtitle from '../../../components/text/subtitle'
 import ProdutosSVG from '../../../images/content/micromundo-ii/produtos.svg'
 import EmptySpace from '../../../components/empty-space'
-class Three extends React.Component {
+class Five extends React.Component {
   constructor(props){
     super(props)
     this.props.setHeader()
@@ -16,7 +16,7 @@ class Three extends React.Component {
       <ContentBox>
         <PrimaryText>
             <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA 2' subtitle='Numa Feira de Artesanato'/>
-            <p>É frequente que em uma feira livre, além de produtos alimentícios como frutas e verduras, haja uma área destinada à comercialização de produtos artesanais ou industriais.  Nesses espaços é possível adquirir desde ferramentas e utensílios domésticos, até opções interessantes para. E, ao contrário do que ocorre no comércio tradicional as oportunidades para negociação de preços tendem a ser maiores.</p>
+            <p>É frequente que em uma feira livre, além de produtos alimentícios como frutas e verduras, haja uma área destinada à comercialização de produtos artesanais ou industriais.  Nesses espaços é possível adquirir desde ferramentas e utensílios domésticos até opções interessantes para presentes. E, ao contrário do que ocorre no comércio tradicional, as oportunidades para negociação de preços tendem a ser maiores.</p>
 
 
 <div style={{textAlign:"center", width:"100%"}}>
@@ -34,4 +34,4 @@ class Three extends React.Component {
   }
 }
 
-export default Three
+export default Five

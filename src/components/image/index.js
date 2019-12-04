@@ -11,11 +11,15 @@ import React, {Fragment} from 'react'
 class Image extends React.Component {
     constructor(props){
         super(props)
+        console.log(this.props.width)
         if(this.props.center){
             this.state = {
                 width: this.props.width ? this.props.width : '100%'
             }
+            console.log("State")
+            console.log(this.state.width)
         }
+        
     }
     render() {
         return (
@@ -23,6 +27,7 @@ class Image extends React.Component {
                 {this.props.center ? 
                     <div style={{textAlign: 'center', width: this.state.width}}>
                         <img className={this.props.className} onClick={this.props.onClick} src={this.props.src} alt={this.props.alt} />
+                        
                     </div>
                     :
                     <img className={this.props.className} onClick={this.props.onClick} src={this.props.src} alt={this.props.alt} />

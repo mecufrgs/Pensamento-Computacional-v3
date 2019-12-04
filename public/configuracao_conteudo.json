@@ -353,22 +353,22 @@
                         "enunciado": "O levantamento e o registro produzidos pelos alunos podem ajudar a caracterizar o bairro sob a perspectiva dos próprios moradores. Considere que os documentos gerados no registro sejam usados para produzir uma descrição do bairro segundo essa perspectiva - espera-se que a partir dessa análise surjam termos descritores, como \"polo gastronômico\" ou \"arquitetura de inspiração lusitana\" ou ainda \"espaço cultural\". Quais dos pilares do Pensamento Computacional melhor se adéquam à determinação desses descritores?",
                         "gabaritos": [
                             {
-                                "alternativa": "Abstração;",
+                                "alternativa": "Abstração e Reconhecimento de Padrões;",
                                 "chave": "1",
                                 "valor": "1"
                             },
                             {
-                                "alternativa": "Decomposição;",
+                                "alternativa": "Abstração e Decomposição;",
                                 "chave": "2",
                                 "valor": "0"
                             },
                             {
-                                "alternativa": "Reconhecimento de Padrões;",
+                                "alternativa": "Reconhecimento de Padrões e Algoritmos;",
                                 "chave": "3",
-                                "valor": "1"
+                                "valor": "0"
                             },
                             {
-                                "alternativa": "Algoritmos;",
+                                "alternativa": "Algoritmos e Decomposição;",
                                 "chave": "4",
                                 "valor": "0"
                             }
