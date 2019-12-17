@@ -22,7 +22,7 @@ class Three extends React.Component {
           O trabalho proposto está de acordo com a BNCC para o Ensino Fundamental – Anos Iniciais, em particular quando ela afirma: 
           </p>
           <EmptySpace/>
-          <Image src={QuadroUmSVG} alt='Quadro com o seguinte texto: "As características dessa faixa etária demandam um trabalho no ambiente escolar que se organize em torno dos interesses manifestos pelas crianças, de suas vivências mais imediatas para que, com base nessas vivências, elas possam, progressivamente, ampliar essa compreensão, o que se dá pela mobilização de operações cognitivas cada vez mais complexas e pela sensibilidade para apreender o mundo, expressar-se sobre ele e nele atuar."'/>
+          <Image className='highlightbox' src={QuadroUmSVG} alt='Quadro com o seguinte texto: "As características dessa faixa etária demandam um trabalho no ambiente escolar que se organize em torno dos interesses manifestos pelas crianças, de suas vivências mais imediatas para que, com base nessas vivências, elas possam, progressivamente, ampliar essa compreensão, o que se dá pela mobilização de operações cognitivas cada vez mais complexas e pela sensibilidade para apreender o mundo, expressar-se sobre ele e nele atuar."'/>
           <EmptySpace/>
 
         </PrimaryText>

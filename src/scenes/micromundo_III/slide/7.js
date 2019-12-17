@@ -27,11 +27,6 @@ class Eight extends React.Component {
           <p>Com o propósito de futuramente gerar um “mapa falado”, poderia ser criado um possível caminho da escola até um certo estabelecimento, considerando sobretudo as ruas para as quais  foram registrados comentários feitos pelos moradores.</p>
           <EmptySpace />
 
-          <div style={{textAlign:"center", width:"100%"}}>
-            <div style={{display:"inline-block"}}>
-          <Image center width="322px" src={MPensandoSVG} alt='Mariana pensando' />
-            </div>
-          </div>
           
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Arte, Geograﬁa, Matemática e Língua Portuguesa. </TextBNCC>
           <EmptySpace />

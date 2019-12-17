@@ -20,7 +20,7 @@ class Two extends React.Component {
           <p>
             O que apresentamos neste curso são exemplos que  podem ser usados em sala de aula, mas que, sobretudo, objetivam ajudá-l@ a compreender como você poderá construir situações que levem seus alunos a usar e desenvolver o Pensamento Computacional.
           </p>
-          <Image src={ProfessoraSVG} alt='Uma professora apontando para um quadro negro.'/>
+          <Image className='highlightbox' src={ProfessoraSVG} alt='Uma professora apontando para um quadro negro.'/>
         </PrimaryText>
       </ContentBox>
     )

@@ -16,7 +16,7 @@ class Footer extends React.Component {
                         onChangeSlide={this.props.onChangeSlide} 
                         slideCount={this.props.slideCount}/>
                 </div>
-                <div className="copyright">
+                <div className="copyright" style={{'fontSize':'10pt'}}>
                     © UFRGS. {UnitName.COURSE_NAME_COMPLETE}
                 </div>
             </footer>

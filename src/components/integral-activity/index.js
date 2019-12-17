@@ -304,8 +304,10 @@ class IntegralActivity extends BaseActivity {
             if (selectedOption.state === QuestionState.ANSWERED_RIGHT) {
                 return (
                     <Box backgroundColor={Color.HINT_RIGHT_BG}>
-                        <Bold>Resposta Certa: </Bold>
-                        {option.tip}
+                        <div style={{'marginTop':'1em'}}>
+                            <Bold>Resposta Certa: </Bold>
+                            {option.tip}
+                        </div>
                     </Box>
                 )
             } else if (selectedOption.state === QuestionState.ANSWERED_WRONG) {

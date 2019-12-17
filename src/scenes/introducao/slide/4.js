@@ -29,7 +29,7 @@ class Four extends React.Component {
             Mas muito  além das indicações de possibilidades de trabalho com habilidades da BNCC, que integram os textos das Questões Avaliativas, e que podem ser exploradas nos vários contextos propostos, a concepção e o desenvolvimento do curso buscaram considerar as várias dimensões do aluno na perspectiva da BNCC.
           </p>
           <EmptySpace/>
-          <Image src={QuadroUmSVG} alt='Observar que nos Micromundos são apresentados cenários mais amplos que o exigido pelas Questões Avaliativas. Os Micromundos contêm portanto elementos para auxiliar e inspirar você, caro cursista, na exploração de casos particulares e na criação de seus próprios contextos.'/>
+          <Image className='highlightbox' src={QuadroUmSVG} alt='Observar que nos Micromundos são apresentados cenários mais amplos que o exigido pelas Questões Avaliativas. Os Micromundos contêm portanto elementos para auxiliar e inspirar você, caro cursista, na exploração de casos particulares e na criação de seus próprios contextos.'/>
           <EmptySpace/>
           Outro curso, "Aplicações do Pensamento Computacional para os Anos Finais do Ensino Fundamental", nesta mesma plataforma, com enfoque e estrutura semelhantes a este, trata de aplicações do Pensamento Computacional para os Anos Finais do Ensino Fundamental, em nível de complexidade adequado a esses anos.
 
