@@ -313,8 +313,10 @@ class IntegralActivity extends BaseActivity {
             } else if (selectedOption.state === QuestionState.ANSWERED_WRONG) {
                 return (
                     <Box backgroundColor={Color.HINT_WRONG_BG}>
-                        <Bold>Resposta Errada: </Bold>
-                        {option.tip}
+                        <div style={{'marginTop':'1em'}}>
+                            <Bold>Resposta Errada: </Bold>
+                            {option.tip}
+                        </div>
                     </Box>
                 )
             }
